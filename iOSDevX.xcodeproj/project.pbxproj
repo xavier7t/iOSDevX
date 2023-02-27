@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		2542682D29AC4F240039ECF6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2542682C29AC4F240039ECF6 /* README.md */; };
 		2542682F29AC4F370039ECF6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2542682E29AC4F370039ECF6 /* .gitignore */; };
-		2542683529AC4FF40039ECF6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683229AC4FF40039ECF6 /* ViewModel.swift */; };
-		2542683629AC4FF40039ECF6 /* DemoSearchable20230207.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683329AC4FF40039ECF6 /* DemoSearchable20230207.swift */; };
-		2542683729AC4FF40039ECF6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683429AC4FF40039ECF6 /* Model.swift */; };
-		2542683C29AC5B430039ECF6 /* DemoDynamicIslandNotification20230226.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683B29AC5B430039ECF6 /* DemoDynamicIslandNotification20230226.swift */; };
+		2542683529AC4FF40039ECF6 /* ViewModel-DemoSearchable20230207.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683229AC4FF40039ECF6 /* ViewModel-DemoSearchable20230207.swift */; };
+		2542683629AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683329AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift */; };
+		2542683729AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683429AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift */; };
+		2542683C29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683B29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift */; };
 		25AA147229AC4E1000970AF1 /* iOSDevXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AA147129AC4E1000970AF1 /* iOSDevXApp.swift */; };
 		25AA147629AC4E1000970AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AA147529AC4E1000970AF1 /* Assets.xcassets */; };
 		25AA147929AC4E1000970AF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AA147829AC4E1000970AF1 /* Preview Assets.xcassets */; };
@@ -21,10 +21,10 @@
 /* Begin PBXFileReference section */
 		2542682C29AC4F240039ECF6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2542682E29AC4F370039ECF6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		2542683229AC4FF40039ECF6 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		2542683329AC4FF40039ECF6 /* DemoSearchable20230207.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSearchable20230207.swift; sourceTree = "<group>"; };
-		2542683429AC4FF40039ECF6 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		2542683B29AC5B430039ECF6 /* DemoDynamicIslandNotification20230226.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDynamicIslandNotification20230226.swift; sourceTree = "<group>"; };
+		2542683229AC4FF40039ECF6 /* ViewModel-DemoSearchable20230207.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewModel-DemoSearchable20230207.swift"; sourceTree = "<group>"; };
+		2542683329AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoSearchable20230207.swift"; sourceTree = "<group>"; };
+		2542683429AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Model-DemoSearchable20230207.swift"; sourceTree = "<group>"; };
+		2542683B29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoDynamicIslandNotification20230226.swift"; sourceTree = "<group>"; };
 		25AA146E29AC4E1000970AF1 /* iOSDevX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AA147129AC4E1000970AF1 /* iOSDevXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDevXApp.swift; sourceTree = "<group>"; };
 		25AA147529AC4E1000970AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,9 +54,9 @@
 		2542683129AC4FD60039ECF6 /* Searchable List */ = {
 			isa = PBXGroup;
 			children = (
-				2542683329AC4FF40039ECF6 /* DemoSearchable20230207.swift */,
-				2542683429AC4FF40039ECF6 /* Model.swift */,
-				2542683229AC4FF40039ECF6 /* ViewModel.swift */,
+				2542683329AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift */,
+				2542683429AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift */,
+				2542683229AC4FF40039ECF6 /* ViewModel-DemoSearchable20230207.swift */,
 			);
 			path = "Searchable List";
 			sourceTree = "<group>";
@@ -64,7 +64,7 @@
 		2542683829AC56440039ECF6 /* Dynamic Island In-app Notification */ = {
 			isa = PBXGroup;
 			children = (
-				2542683B29AC5B430039ECF6 /* DemoDynamicIslandNotification20230226.swift */,
+				2542683B29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift */,
 			);
 			path = "Dynamic Island In-app Notification";
 			sourceTree = "<group>";
@@ -178,10 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2542683729AC4FF40039ECF6 /* Model.swift in Sources */,
-				2542683C29AC5B430039ECF6 /* DemoDynamicIslandNotification20230226.swift in Sources */,
-				2542683529AC4FF40039ECF6 /* ViewModel.swift in Sources */,
-				2542683629AC4FF40039ECF6 /* DemoSearchable20230207.swift in Sources */,
+				2542683729AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift in Sources */,
+				2542683C29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift in Sources */,
+				2542683529AC4FF40039ECF6 /* ViewModel-DemoSearchable20230207.swift in Sources */,
+				2542683629AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift in Sources */,
 				25AA147229AC4E1000970AF1 /* iOSDevXApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
