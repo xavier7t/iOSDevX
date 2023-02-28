@@ -31,6 +31,16 @@ struct ContentView_DemoMenuButton20230208: View {
         }
         .padding()
     }
+    func orderNow() {
+        // code for placing an order goes here
+    }
+
+    func viewHistory() {
+        // code to present history view goes here
+    }
+
+    func showPadWithPhoneNumber() {}
+    func draftEmailWithRecipient() {}
 }
 
 struct ContentView_DemoMenuButton20230208_Previews: PreviewProvider {
@@ -38,15 +48,3 @@ struct ContentView_DemoMenuButton20230208_Previews: PreviewProvider {
         ContentView_DemoMenuButton20230208()
     }
 }
-
-
-func orderNow() {
-    // code for placing an order goes here
-}
-
-func viewHistory() {
-    // code to present history view goes here
-}
-
-func showPadWithPhoneNumber() {}
-func draftEmailWithRecipient() {}

@@ -21,6 +21,7 @@
 		25D76B3129AD95C500226176 /* ContentView-DemoCoreData20230210.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D76B3029AD95C500226176 /* ContentView-DemoCoreData20230210.swift */; };
 		25D76B3329AD963100226176 /* ViewModel-DemoCoreData20230210.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D76B3229AD963100226176 /* ViewModel-DemoCoreData20230210.swift */; };
 		25D76B3529AD966200226176 /* Persistence-DemoCoreData20230210.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D76B3429AD966200226176 /* Persistence-DemoCoreData20230210.swift */; };
+		25D76B3929AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D76B3829AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		25D76B3029AD95C500226176 /* ContentView-DemoCoreData20230210.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoCoreData20230210.swift"; sourceTree = "<group>"; };
 		25D76B3229AD963100226176 /* ViewModel-DemoCoreData20230210.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModel-DemoCoreData20230210.swift"; sourceTree = "<group>"; };
 		25D76B3429AD966200226176 /* Persistence-DemoCoreData20230210.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persistence-DemoCoreData20230210.swift"; sourceTree = "<group>"; };
+		25D76B3829AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoLocalJSON20230227.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		2542683029AC4FA90039ECF6 /* 202302-Feb 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				25D76B3729AD9B0B00226176 /* Local JSON */,
 				25D76B2C29AD958400226176 /* CoreDataMVVM */,
 				25D76B2929AD943000226176 /* Menu Button */,
 				2542683829AC56440039ECF6 /* Dynamic Island In-app Notification */,
@@ -135,6 +138,14 @@
 				25D76B3429AD966200226176 /* Persistence-DemoCoreData20230210.swift */,
 			);
 			path = CoreDataMVVM;
+			sourceTree = "<group>";
+		};
+		25D76B3729AD9B0B00226176 /* Local JSON */ = {
+			isa = PBXGroup;
+			children = (
+				25D76B3829AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift */,
+			);
+			path = "Local JSON";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +230,7 @@
 				25D76B3129AD95C500226176 /* ContentView-DemoCoreData20230210.swift in Sources */,
 				25D76B2B29AD949F00226176 /* ContentView-DemoMenuButton20230208.swift in Sources */,
 				25D76B3529AD966200226176 /* Persistence-DemoCoreData20230210.swift in Sources */,
+				25D76B3929AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
