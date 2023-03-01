@@ -73,6 +73,7 @@ struct DemoInitializers20230228 {
         let createdAt = Date()
         var department: String
         
+        // designated initializer that’s more generic
         init(name: String, department: String) {
             self.name = name
             self.department = department
