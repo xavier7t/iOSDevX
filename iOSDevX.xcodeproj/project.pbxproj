@@ -17,6 +17,8 @@
 		25AA147629AC4E1000970AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AA147529AC4E1000970AF1 /* Assets.xcassets */; };
 		25AA147929AC4E1000970AF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AA147829AC4E1000970AF1 /* Preview Assets.xcassets */; };
 		25D1898329B03EAF00C9DC95 /* ContentView-DemoAsycImg20230301.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D1898229B03EAF00C9DC95 /* ContentView-DemoAsycImg20230301.swift */; };
+		25D1898729B0545D00C9DC95 /* ContentView-DemoColorPicker20230213.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D1898629B0545D00C9DC95 /* ContentView-DemoColorPicker20230213.swift */; };
+		25D1898929B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D1898829B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift */; };
 		25D3439929AEE179009E736D /* ContentView-DemoCodableImage20230211.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D3439829AEE179009E736D /* ContentView-DemoCodableImage20230211.swift */; };
 		25D3439C29AEE41A009E736D /* ContentView-DemoCharts20230209.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D3439B29AEE41A009E736D /* ContentView-DemoCharts20230209.swift */; };
 		25D3439F29AEE63A009E736D /* DemoInitializers20230228.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D3439E29AEE63A009E736D /* DemoInitializers20230228.swift */; };
@@ -40,6 +42,8 @@
 		25AA147529AC4E1000970AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25AA147829AC4E1000970AF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25D1898229B03EAF00C9DC95 /* ContentView-DemoAsycImg20230301.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoAsycImg20230301.swift"; sourceTree = "<group>"; };
+		25D1898629B0545D00C9DC95 /* ContentView-DemoColorPicker20230213.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoColorPicker20230213.swift"; sourceTree = "<group>"; };
+		25D1898829B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomColorPickerView-DemoColorPicker20230213.swift"; sourceTree = "<group>"; };
 		25D3439829AEE179009E736D /* ContentView-DemoCodableImage20230211.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoCodableImage20230211.swift"; sourceTree = "<group>"; };
 		25D3439B29AEE41A009E736D /* ContentView-DemoCharts20230209.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoCharts20230209.swift"; sourceTree = "<group>"; };
 		25D3439E29AEE63A009E736D /* DemoInitializers20230228.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoInitializers20230228.swift; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 		2542683029AC4FA90039ECF6 /* 202302-Feb 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				25D1898529B0543400C9DC95 /* ColorPicker */,
 				25D3439D29AEE623009E736D /* Initializers */,
 				25D3439A29AEE3ED009E736D /* Charts */,
 				25D3439729AEE149009E736D /* CodableImage */,
@@ -147,6 +152,15 @@
 				25D1898129B03DA000C9DC95 /* AsyncImage */,
 			);
 			path = "202303-Mar 2023";
+			sourceTree = "<group>";
+		};
+		25D1898529B0543400C9DC95 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				25D1898629B0545D00C9DC95 /* ContentView-DemoColorPicker20230213.swift */,
+				25D1898829B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift */,
+			);
+			path = ColorPicker;
 			sourceTree = "<group>";
 		};
 		25D3439729AEE149009E736D /* CodableImage */ = {
@@ -278,7 +292,9 @@
 				2542683C29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift in Sources */,
 				2542683529AC4FF40039ECF6 /* ViewModel-DemoSearchable20230207.swift in Sources */,
 				25D76B2F29AD95A400226176 /* Model20230210.xcdatamodeld in Sources */,
+				25D1898729B0545D00C9DC95 /* ContentView-DemoColorPicker20230213.swift in Sources */,
 				25D3439929AEE179009E736D /* ContentView-DemoCodableImage20230211.swift in Sources */,
+				25D1898929B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift in Sources */,
 				2542683629AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift in Sources */,
 				25AA147229AC4E1000970AF1 /* iOSDevXApp.swift in Sources */,
 				25D1898329B03EAF00C9DC95 /* ContentView-DemoAsycImg20230301.swift in Sources */,
