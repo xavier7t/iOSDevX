@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25326D0629B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */; };
 		2542682D29AC4F240039ECF6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2542682C29AC4F240039ECF6 /* README.md */; };
 		2542682F29AC4F370039ECF6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2542682E29AC4F370039ECF6 /* .gitignore */; };
 		2542683529AC4FF40039ECF6 /* ViewModel-DemoSearchable20230207.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683229AC4FF40039ECF6 /* ViewModel-DemoSearchable20230207.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGroup20230302.swift"; sourceTree = "<group>"; };
 		2542682C29AC4F240039ECF6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2542682E29AC4F370039ECF6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2542683229AC4FF40039ECF6 /* ViewModel-DemoSearchable20230207.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewModel-DemoSearchable20230207.swift"; sourceTree = "<group>"; };
@@ -68,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25326D0429B1949F00BEDBD9 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
 		2542683029AC4FA90039ECF6 /* 202302-Feb 2023 */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +162,7 @@
 		25D1898429B043D200C9DC95 /* 202303-Mar 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				25326D0429B1949F00BEDBD9 /* Group */,
 				25D1898129B03DA000C9DC95 /* AsyncImage */,
 			);
 			path = "202303-Mar 2023";
@@ -312,6 +323,7 @@
 				25D1898329B03EAF00C9DC95 /* ContentView-DemoAsycImg20230301.swift in Sources */,
 				25D76B3329AD963100226176 /* ViewModel-DemoCoreData20230210.swift in Sources */,
 				25D76B3129AD95C500226176 /* ContentView-DemoCoreData20230210.swift in Sources */,
+				25326D0629B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift in Sources */,
 				25D76B2B29AD949F00226176 /* ContentView-DemoMenuButton20230208.swift in Sources */,
 				25D76B3529AD966200226176 /* Persistence-DemoCoreData20230210.swift in Sources */,
 				25D76B3929AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift in Sources */,
