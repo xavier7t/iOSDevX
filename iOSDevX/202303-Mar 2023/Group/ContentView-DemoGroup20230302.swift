@@ -94,20 +94,34 @@ extension ContentView_DemoGroup20230302 {
 //            Text("I’m true")
 //        }
 //    }
+    // Work around without a group
+    private var ifStatementWithoutGroup: some View {
+        if true {
+            return Text("I’m true")
+        } else {
+            return Text("I’m false")
+        }
+    }
+    //MARK: Using a group to apply a view modifier to multiple views
     private var groupedIfStatement: some View {
         Group {
             if true {
                 Text("I’m true")
+            } else {
+                Text("I’m false")
             }
         }
+        .padding()
     }
+
 }
 
 
-//MARK: Using a group to apply a view modifier to multiple views
+//MARK: Using a group to apply a view modifier to handle user interaction
 extension ContentView_DemoGroup20230302 {
     private var ungroupedForModifier: some View {
         VStack {
+            Text("This text is not tappable")
             Text("I want to be bold.")
                 .bold()
                 .font(.footnote)
@@ -125,11 +139,8 @@ extension ContentView_DemoGroup20230302 {
     
     private var groupedForModifier: some View {
         VStack {
+            Text("This text is not tappable")
             Group {
-                Text("I want to be bold.")
-                Text("I want to be bold.")
-                Text("I want to be bold.")
-                Text("I want to be bold.")
                 Text("I want to be bold.")
                 Text("I want to be bold.")
             }
