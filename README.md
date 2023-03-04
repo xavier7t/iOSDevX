@@ -20,7 +20,7 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Mar 2023
-[Link and ShareLink in SwiftUI](https://xavier7t.com/links-in-swift)
+[Link and ShareLink in SwiftUI](https://xavier7t.com/links-in-swiftui)
 
 [Use cases of SwiftUI Group](https://xavier7t.com/use-cases-of-swiftui-group)
 
