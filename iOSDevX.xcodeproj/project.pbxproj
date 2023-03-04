@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2514688329B2D830003FEDB8 /* ContentView-DemoLinks20230303.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514688229B2D830003FEDB8 /* ContentView-DemoLinks20230303.swift */; };
 		25326D0629B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */; };
 		2542682D29AC4F240039ECF6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2542682C29AC4F240039ECF6 /* README.md */; };
 		2542682F29AC4F370039ECF6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2542682E29AC4F370039ECF6 /* .gitignore */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2514688229B2D830003FEDB8 /* ContentView-DemoLinks20230303.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoLinks20230303.swift"; sourceTree = "<group>"; };
 		25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGroup20230302.swift"; sourceTree = "<group>"; };
 		2542682C29AC4F240039ECF6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2542682E29AC4F370039ECF6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -70,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2514688129B2D813003FEDB8 /* Links in SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				2514688229B2D830003FEDB8 /* ContentView-DemoLinks20230303.swift */,
+			);
+			path = "Links in SwiftUI";
+			sourceTree = "<group>";
+		};
 		25326D0429B1949F00BEDBD9 /* Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +172,7 @@
 		25D1898429B043D200C9DC95 /* 202303-Mar 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				2514688129B2D813003FEDB8 /* Links in SwiftUI */,
 				25326D0429B1949F00BEDBD9 /* Group */,
 				25D1898129B03DA000C9DC95 /* AsyncImage */,
 			);
@@ -320,6 +331,7 @@
 				25D1898929B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift in Sources */,
 				2542683629AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift in Sources */,
 				25AA147229AC4E1000970AF1 /* iOSDevXApp.swift in Sources */,
+				2514688329B2D830003FEDB8 /* ContentView-DemoLinks20230303.swift in Sources */,
 				25D1898329B03EAF00C9DC95 /* ContentView-DemoAsycImg20230301.swift in Sources */,
 				25D76B3329AD963100226176 /* ViewModel-DemoCoreData20230210.swift in Sources */,
 				25D76B3129AD95C500226176 /* ContentView-DemoCoreData20230210.swift in Sources */,
