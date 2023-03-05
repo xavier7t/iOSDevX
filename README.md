@@ -15,11 +15,15 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 
 [Dynamic Island In-App Notification in SwiftUI](https://xavier7t.com/dynamic-island-in-app-notification-in-swiftui)
 
+[@State in SwiftUI](https://xavier7t.com/state-in-swiftui)
+
 [Swift Initializers Explained](https://xavier7t.com/swift-initializers-explained)
 
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Mar 2023
+[@State in SwiftUI](https://xavier7t.com/state-in-swiftui)
+
 [Link and ShareLink in SwiftUI](https://xavier7t.com/links-in-swiftui)
 
 [Use cases of SwiftUI Group](https://xavier7t.com/use-cases-of-swiftui-group)
