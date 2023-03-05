@@ -98,8 +98,6 @@ extension ContentView_DemoGroup20230302 {
     private var ifStatementWithoutGroup: some View {
         if true {
             return Text("I’m true")
-        } else {
-            return Text("I’m false")
         }
     }
     //MARK: Using a group to apply a view modifier to multiple views
@@ -107,8 +105,6 @@ extension ContentView_DemoGroup20230302 {
         Group {
             if true {
                 Text("I’m true")
-            } else {
-                Text("I’m false")
             }
         }
         .padding()
