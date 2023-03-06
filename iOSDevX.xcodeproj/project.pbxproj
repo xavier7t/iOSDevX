@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2514688329B2D830003FEDB8 /* ContentView-DemoLinks20230303.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2514688229B2D830003FEDB8 /* ContentView-DemoLinks20230303.swift */; };
+		252EC1A629B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252EC1A529B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift */; };
 		25326D0629B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */; };
 		2542682D29AC4F240039ECF6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2542682C29AC4F240039ECF6 /* README.md */; };
 		2542682F29AC4F370039ECF6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2542682E29AC4F370039ECF6 /* .gitignore */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		2514688229B2D830003FEDB8 /* ContentView-DemoLinks20230303.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoLinks20230303.swift"; sourceTree = "<group>"; };
+		252EC1A529B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoRESTAPI20230305.swift"; sourceTree = "<group>"; };
 		25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGroup20230302.swift"; sourceTree = "<group>"; };
 		2542682C29AC4F240039ECF6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2542682E29AC4F370039ECF6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 				2514688229B2D830003FEDB8 /* ContentView-DemoLinks20230303.swift */,
 			);
 			path = "Links in SwiftUI";
+			sourceTree = "<group>";
+		};
+		252EC1A429B57A8C00E58960 /* REST API */ = {
+			isa = PBXGroup;
+			children = (
+				252EC1A529B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift */,
+			);
+			path = "REST API";
 			sourceTree = "<group>";
 		};
 		25326D0429B1949F00BEDBD9 /* Group */ = {
@@ -182,6 +192,7 @@
 		25D1898429B043D200C9DC95 /* 202303-Mar 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				252EC1A429B57A8C00E58960 /* REST API */,
 				2597082929B42743008D2BF7 /* State in SwiftUI */,
 				2514688129B2D813003FEDB8 /* Links in SwiftUI */,
 				25326D0429B1949F00BEDBD9 /* Group */,
@@ -335,6 +346,7 @@
 				25D3439F29AEE63A009E736D /* DemoInitializers20230228.swift in Sources */,
 				2542683C29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift in Sources */,
 				25D1898C29B0568500C9DC95 /* ContentView-DemoColorSchemePreference20230224.swift in Sources */,
+				252EC1A629B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift in Sources */,
 				2542683529AC4FF40039ECF6 /* ViewModel-DemoSearchable20230207.swift in Sources */,
 				25D76B2F29AD95A400226176 /* Model20230210.xcdatamodeld in Sources */,
 				2597082B29B427AC008D2BF7 /* ContentView-DemoState20230304.swift in Sources */,
