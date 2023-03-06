@@ -32,8 +32,7 @@ struct ContentView_DemoRESTAPI20230305: View {
     //MARK: Model
     struct Post: Codable, Identifiable {
         let id: Int
-        let title: String
-        let body: String
+        let title, body: String
     }
     //MARK: Function to fetch post data
     func fetchData() {
