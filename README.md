@@ -22,6 +22,8 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Mar 2023
+[Custom Shapes in SwiftUI](https://xavier7t.com/custom-shapes-in-swiftui)
+
 [Standard Shapes in SwiftUI](https://xavier7t.com/swiftui-shapes)
 
 [REST API Call in SwiftUI](https://xavier7t.com/rest-api-call-in-swiftui)
