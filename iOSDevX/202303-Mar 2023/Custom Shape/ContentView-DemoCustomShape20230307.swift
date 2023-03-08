@@ -56,8 +56,8 @@ extension ContentView_DemoCustomShape20230307 {
             path.move(to: CGPoint(x: 150, y: 0))
             path.addLine(to: CGPoint(x: 10, y: 100))
             path.addLine(to: CGPoint(x: 150, y: 100))
-            path.addLine(to: CGPoint(x: 150, y: 100))
-            path.closeSubpath()
+//            path.addLine(to: CGPoint(x: 150, y: 100))
+            path.closeSubpath() // path.addLine(to: CGPoint(x: 150, y: 0))
         }
         .stroke()
     }
@@ -69,7 +69,8 @@ extension ContentView_DemoCustomShape20230307 {
                 .init(x: 150, y: 0),
                 .init(x: 150, y: 100),
                 .init(x: 0, y: 100)
-            ])}
+            ])
+        }
     }
     private var arc_addArc: some View {
         ZStack {
@@ -77,7 +78,7 @@ extension ContentView_DemoCustomShape20230307 {
                 path.addArc(center: .init(x: 100, y: 50), radius: 50, startAngle: .init(degrees: 0), endAngle: .init(degrees: 90), clockwise: true)
             }
             .stroke(lineWidth: 5)
-            .fill(LinearGradient(colors: [.indigo, .red, .green, .green, .yellow], startPoint: .topLeading, endPoint: .bottom))
+            .fill(LinearGradient(colors: [.indigo, .indigo, .indigo, .green, .yellow], startPoint: .topLeading, endPoint: .bottom))
             Path { path in
                 path.addArc(center: .init(x: 110, y: 60), radius: 50, startAngle: .init(degrees: 0), endAngle: .init(degrees: 90), clockwise: false)
             }
@@ -88,7 +89,7 @@ extension ContentView_DemoCustomShape20230307 {
     private var curve_addCurve: some View {
         Path { path in
             path.move(to: .init(x: 50, y: 0))
-            path.addCurve(to: .init(x: 200, y: 00), control1: .init(x: 125, y: 60), control2: .init(x: 125, y: 60))
+            path.addCurve(to: .init(x: 200, y: 00), control1: .init(x: 125, y: -120), control2: .init(x: 125, y: 160))
         }
         .stroke(lineWidth: 8)
         .foregroundColor(.indigo)
