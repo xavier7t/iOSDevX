@@ -22,6 +22,8 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Mar 2023
+[Grid View in SwiftUI](https://xavier7t.com/grid-view-in-swiftui)
+
 [Custom Shapes in SwiftUI](https://xavier7t.com/custom-shapes-in-swiftui)
 
 [Standard Shapes in SwiftUI](https://xavier7t.com/swiftui-shapes)
