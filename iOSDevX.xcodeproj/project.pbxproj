@@ -17,6 +17,7 @@
 		2542683729AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683429AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift */; };
 		2542683C29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683B29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift */; };
 		255D776229B807CB000A901B /* ContentView-DemoCustomShape20230307.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255D776129B807CB000A901B /* ContentView-DemoCustomShape20230307.swift */; };
+		2569394D29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2569394C29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift */; };
 		256FC53B29B6EC0100098798 /* ContentView-DemoShapes20230306.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FC53A29B6EC0100098798 /* ContentView-DemoShapes20230306.swift */; };
 		2597082B29B427AC008D2BF7 /* ContentView-DemoState20230304.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597082A29B427AC008D2BF7 /* ContentView-DemoState20230304.swift */; };
 		25AA147229AC4E1000970AF1 /* iOSDevXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AA147129AC4E1000970AF1 /* iOSDevXApp.swift */; };
@@ -48,6 +49,7 @@
 		2542683429AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Model-DemoSearchable20230207.swift"; sourceTree = "<group>"; };
 		2542683B29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoDynamicIslandNotification20230226.swift"; sourceTree = "<group>"; };
 		255D776129B807CB000A901B /* ContentView-DemoCustomShape20230307.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoCustomShape20230307.swift"; sourceTree = "<group>"; };
+		2569394C29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGridView20230308.swift"; sourceTree = "<group>"; };
 		256FC53A29B6EC0100098798 /* ContentView-DemoShapes20230306.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoShapes20230306.swift"; sourceTree = "<group>"; };
 		2597082A29B427AC008D2BF7 /* ContentView-DemoState20230304.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoState20230304.swift"; sourceTree = "<group>"; };
 		25AA146E29AC4E1000970AF1 /* iOSDevX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevX.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +149,14 @@
 			path = "Custom Shape";
 			sourceTree = "<group>";
 		};
+		2569394B29B9316400BC9AD5 /* Grid View */ = {
+			isa = PBXGroup;
+			children = (
+				2569394C29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift */,
+			);
+			path = "Grid View";
+			sourceTree = "<group>";
+		};
 		256FC53929B6EBD100098798 /* Standard Shapes in SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +222,7 @@
 		25D1898429B043D200C9DC95 /* 202303-Mar 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				2569394B29B9316400BC9AD5 /* Grid View */,
 				255D776029B807B0000A901B /* Custom Shape */,
 				256FC53929B6EBD100098798 /* Standard Shapes in SwiftUI */,
 				252EC1A429B57A8C00E58960 /* REST API */,
@@ -378,6 +389,7 @@
 				25D3439929AEE179009E736D /* ContentView-DemoCodableImage20230211.swift in Sources */,
 				25D1898929B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift in Sources */,
 				2542683629AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift in Sources */,
+				2569394D29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift in Sources */,
 				25AA147229AC4E1000970AF1 /* iOSDevXApp.swift in Sources */,
 				2514688329B2D830003FEDB8 /* ContentView-DemoLinks20230303.swift in Sources */,
 				25D1898329B03EAF00C9DC95 /* ContentView-DemoAsycImg20230301.swift in Sources */,
