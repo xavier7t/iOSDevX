@@ -8,23 +8,22 @@
 import SwiftUI
 
 struct ContentView_DemoGridView20230308: View {
+    private var fixedGridItems: [GridItem] = [
+        .init(.fixed(50)),
+        .init(.fixed(150)),
+        .init(.fixed(200))
+    ]
     private var flexibleGridItems: [GridItem] = [
-        .init(.flexible()),
         .init(.flexible()),
         .init(.flexible())
     ]
-    private var fixedGridItems: [GridItem] = [
-        .init(.fixed(50)),
-        .init(.fixed(50)),
-        .init(.fixed(50))
-    ]
     private var adaptiveGridItems: [GridItem] = [
-        .init(.adaptive(minimum: 120, maximum: 150)),
+        .init(.adaptive(minimum: 100, maximum: 120)),
         .init(.adaptive(minimum: 150)),
         .init(.adaptive(minimum: 120))
     ]
     private var homeGridItems: [GridItem] = [
-        .init(.fixed(150))
+        .init(.flexible())
     ]
     var body: some View {
             TabView {
@@ -32,13 +31,13 @@ struct ContentView_DemoGridView20230308: View {
                     .tabItem {
                         Label("Home", systemImage: "house")
                     }
-                flexibleGridItemsView
-                    .tabItem {
-                        Label("Flexible", systemImage: "figure.flexibility")
-                    }
                 fixedGridItemsView
                     .tabItem {
                         Label("Fixed", systemImage: "photo.artframe")
+                    }
+                flexibleGridItemsView
+                    .tabItem {
+                        Label("Flexible", systemImage: "figure.flexibility")
                     }
                 adaptiveGridItemsView
                     .tabItem {
@@ -84,7 +83,7 @@ extension ContentView_DemoGridView20230308 {
                         ZStack {
                             RoundedRectangle(cornerRadius: 15)
                                 .stroke()
-                                .frame(width: 100, height: 150)
+                                .frame(width: 100, height: 50)
                                 .foregroundColor(.accentColor)
                             Text("\(item)")
                         }
@@ -104,7 +103,7 @@ extension ContentView_DemoGridView20230308 {
                         ZStack {
                             RoundedRectangle(cornerRadius: 15)
                                 .stroke()
-                                .frame(width: 100, height: 150)
+                                .frame(width: 100, height: 100)
                                 .foregroundColor(.accentColor)
                             Text("\(item)")
                         }
