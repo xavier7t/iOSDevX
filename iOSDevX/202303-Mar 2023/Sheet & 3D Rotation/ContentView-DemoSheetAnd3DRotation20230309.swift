@@ -20,7 +20,7 @@ struct ContentView_DemoSheetAnd3DRotation20230309: View {
                 }
                 .sheet(isPresented: $showSheet) {
                     sheet
-                    //.presentationDetents([.medium])
+//                    .presentationDetents([.medium])
                         .presentationDetents([.fraction(0.50)]) // iOS 16.0 +
                         .presentationCornerRadius(50) // iOS 16.4 +
                 }

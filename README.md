@@ -19,9 +19,13 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 
 [Swift Initializers Explained](https://xavier7t.com/swift-initializers-explained)
 
+[Sheet and 3D Rotation in SwiftUI](https://xavier7t.com/swiftui-sheet-and-3d-rotation)
+
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Mar 2023
+[Sheet and 3D Rotation in SwiftUI](https://xavier7t.com/swiftui-sheet-and-3d-rotation)
+
 [Grid View in SwiftUI](https://xavier7t.com/grid-view-in-swiftui)
 
 [Custom Shapes in SwiftUI](https://xavier7t.com/custom-shapes-in-swiftui)
