@@ -3,12 +3,16 @@
 ## Welcome to iOSDevX!
 This repo hosts the source code and resources for the Swift tech blog: [iOSDevX](https://xavier7t.com) by me, Xavier.
 
-## 🔥Top 3 Hits🔥
+## 🔥Top 5 Hits🔥
 [Charts in SwiftUI](https://xavier7t.com/charts-in-swiftui)
+
+[Grid View in SwiftUI](https://xavier7t.com/grid-view-in-swiftui)
 
 [Searchable List in SwiftUI](https://xavier7t.com/searchable-list-in-swiftui)
 
 [CRUD with Core Data in SwiftUI](https://xavier7t.com/crud-with-core-data-in-swiftui)
+
+[Interactive Charts in SwiftUI](https://xavier7t.com/interactive-charts-in-swiftui)
 
 ## 👨‍🍳Chef’s recommendation👨‍🍳
 [CRUD with Core Data in SwiftUI](https://xavier7t.com/crud-with-core-data-in-swiftui)
