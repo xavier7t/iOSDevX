@@ -11,7 +11,7 @@ import SwiftUI
 struct iOSDevXApp: App {
     var body: some Scene {
         WindowGroup {
-            TestView()
+            welcome
         }
     }
 }
