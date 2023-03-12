@@ -21,6 +21,7 @@
 		2569394D29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2569394C29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift */; };
 		256FC53B29B6EC0100098798 /* ContentView-DemoShapes20230306.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FC53A29B6EC0100098798 /* ContentView-DemoShapes20230306.swift */; };
 		258B480E29BC22AD00FEC6C5 /* ContentView-DemoCopyToClipboard20230310.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B480D29BC22AD00FEC6C5 /* ContentView-DemoCopyToClipboard20230310.swift */; };
+		258DFC7029BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258DFC6F29BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift */; };
 		2597082B29B427AC008D2BF7 /* ContentView-DemoState20230304.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597082A29B427AC008D2BF7 /* ContentView-DemoState20230304.swift */; };
 		25AA147229AC4E1000970AF1 /* iOSDevXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AA147129AC4E1000970AF1 /* iOSDevXApp.swift */; };
 		25AA147629AC4E1000970AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AA147529AC4E1000970AF1 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		2569394C29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGridView20230308.swift"; sourceTree = "<group>"; };
 		256FC53A29B6EC0100098798 /* ContentView-DemoShapes20230306.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoShapes20230306.swift"; sourceTree = "<group>"; };
 		258B480D29BC22AD00FEC6C5 /* ContentView-DemoCopyToClipboard20230310.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoCopyToClipboard20230310.swift"; sourceTree = "<group>"; };
+		258DFC6F29BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoLinearGradient20230311.swift"; sourceTree = "<group>"; };
 		2597082A29B427AC008D2BF7 /* ContentView-DemoState20230304.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoState20230304.swift"; sourceTree = "<group>"; };
 		25AA146E29AC4E1000970AF1 /* iOSDevX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AA147129AC4E1000970AF1 /* iOSDevXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDevXApp.swift; sourceTree = "<group>"; };
@@ -185,6 +187,14 @@
 			path = "Copy to Clipboard";
 			sourceTree = "<group>";
 		};
+		258DFC6E29BD798E0097CCC6 /* Linear Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				258DFC6F29BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift */,
+			);
+			path = "Linear Gradient";
+			sourceTree = "<group>";
+		};
 		2597082929B42743008D2BF7 /* State in SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +252,7 @@
 		25D1898429B043D200C9DC95 /* 202303-Mar 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				258DFC6E29BD798E0097CCC6 /* Linear Gradient */,
 				258B480C29BC227900FEC6C5 /* Copy to Clipboard */,
 				2517047729BADB720038139B /* Sheet & 3D Rotation */,
 				2569394B29B9316400BC9AD5 /* Grid View */,
@@ -399,6 +410,7 @@
 				2542683729AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift in Sources */,
 				255D776229B807CB000A901B /* ContentView-DemoCustomShape20230307.swift in Sources */,
 				25D3439C29AEE41A009E736D /* ContentView-DemoCharts20230209.swift in Sources */,
+				258DFC7029BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift in Sources */,
 				25D3439F29AEE63A009E736D /* DemoInitializers20230228.swift in Sources */,
 				256FC53B29B6EC0100098798 /* ContentView-DemoShapes20230306.swift in Sources */,
 				258B480E29BC22AD00FEC6C5 /* ContentView-DemoCopyToClipboard20230310.swift in Sources */,
