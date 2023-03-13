@@ -22,7 +22,7 @@ struct ContentView_DemoSheetAnd3DRotation20230309: View {
                     sheet
 //                    .presentationDetents([.medium])
                         .presentationDetents([.fraction(0.50)]) // iOS 16.0 +
-                        .presentationCornerRadius(50) // iOS 16.4 +
+                        //.presentationCornerRadius(50) // iOS 16.4 + (uncomment this line if you have iOS 16.4 or later)
                 }
                 Image("demo")
                     .resizable()
