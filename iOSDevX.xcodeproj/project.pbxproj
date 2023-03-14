@@ -39,6 +39,7 @@
 		25D76B3329AD963100226176 /* ViewModel-DemoCoreData20230210.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D76B3229AD963100226176 /* ViewModel-DemoCoreData20230210.swift */; };
 		25D76B3529AD966200226176 /* Persistence-DemoCoreData20230210.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D76B3429AD966200226176 /* Persistence-DemoCoreData20230210.swift */; };
 		25D76B3929AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D76B3829AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift */; };
+		25E35FF629C0053200B88CE9 /* ContentView-DemoPicker20230313.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E35FF529C0053200B88CE9 /* ContentView-DemoPicker20230313.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		25D76B3229AD963100226176 /* ViewModel-DemoCoreData20230210.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModel-DemoCoreData20230210.swift"; sourceTree = "<group>"; };
 		25D76B3429AD966200226176 /* Persistence-DemoCoreData20230210.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persistence-DemoCoreData20230210.swift"; sourceTree = "<group>"; };
 		25D76B3829AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoLocalJSON20230227.swift"; sourceTree = "<group>"; };
+		25E35FF529C0053200B88CE9 /* ContentView-DemoPicker20230313.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoPicker20230313.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +254,7 @@
 		25D1898429B043D200C9DC95 /* 202303-Mar 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				25E35FF429C0051100B88CE9 /* Pickers in SwiftUI */,
 				258DFC6E29BD798E0097CCC6 /* Linear Gradient */,
 				258B480C29BC227900FEC6C5 /* Copy to Clipboard */,
 				2517047729BADB720038139B /* Sheet & 3D Rotation */,
@@ -335,6 +338,14 @@
 			path = "Local JSON";
 			sourceTree = "<group>";
 		};
+		25E35FF429C0051100B88CE9 /* Pickers in SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				25E35FF529C0053200B88CE9 /* ContentView-DemoPicker20230313.swift */,
+			);
+			path = "Pickers in SwiftUI";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -413,6 +424,7 @@
 				258DFC7029BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift in Sources */,
 				25D3439F29AEE63A009E736D /* DemoInitializers20230228.swift in Sources */,
 				256FC53B29B6EC0100098798 /* ContentView-DemoShapes20230306.swift in Sources */,
+				25E35FF629C0053200B88CE9 /* ContentView-DemoPicker20230313.swift in Sources */,
 				258B480E29BC22AD00FEC6C5 /* ContentView-DemoCopyToClipboard20230310.swift in Sources */,
 				2517047929BADB9A0038139B /* ContentView-DemoSheetAnd3DRotation20230309.swift in Sources */,
 				2542683C29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift in Sources */,
