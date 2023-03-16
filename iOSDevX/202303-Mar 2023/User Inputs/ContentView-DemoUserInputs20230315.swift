@@ -17,20 +17,24 @@ struct ContentView_DemoUserInputs20230315: View {
             ScrollView {
                 TextField("Username", text: $usernameInput)
                     .textFieldStyle(.roundedBorder)
+                    .autocorrectionDisabled(true)
                     .submitLabel(.next)
                     .frame(minHeight: 50)
                 TextField("Email", text: $emailInput)
                     .keyboardType(.emailAddress)
                     .submitLabel(.next)
                     .textFieldStyle(.roundedBorder)
+                    .autocorrectionDisabled(true)
+                    .textInputAutocapitalization(.never)
                     .frame(minHeight: 50)
-                    .onSubmit {
-                        // validation code goes here
-                    }
                 SecureField("Password", text: $passwordInput)
                     .textFieldStyle(.roundedBorder)
                     .submitLabel(.continue)
                     .onSubmit {
+                        // validation code goes here
+                    }
+                    // alternative: if validation should be done everytime the value changes
+                    .onChange(of: passwordInput) { _ in
                         // validation code goes here
                     }
                 HStack {
