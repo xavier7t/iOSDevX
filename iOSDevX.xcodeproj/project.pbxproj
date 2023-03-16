@@ -19,6 +19,7 @@
 		2542683C29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683B29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift */; };
 		255D776229B807CB000A901B /* ContentView-DemoCustomShape20230307.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255D776129B807CB000A901B /* ContentView-DemoCustomShape20230307.swift */; };
 		2569394D29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2569394C29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift */; };
+		256D118D29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D118C29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift */; };
 		256FC53B29B6EC0100098798 /* ContentView-DemoShapes20230306.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FC53A29B6EC0100098798 /* ContentView-DemoShapes20230306.swift */; };
 		258B480E29BC22AD00FEC6C5 /* ContentView-DemoCopyToClipboard20230310.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B480D29BC22AD00FEC6C5 /* ContentView-DemoCopyToClipboard20230310.swift */; };
 		258DFC7029BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258DFC6F29BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift */; };
@@ -55,6 +56,7 @@
 		2542683B29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoDynamicIslandNotification20230226.swift"; sourceTree = "<group>"; };
 		255D776129B807CB000A901B /* ContentView-DemoCustomShape20230307.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoCustomShape20230307.swift"; sourceTree = "<group>"; };
 		2569394C29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGridView20230308.swift"; sourceTree = "<group>"; };
+		256D118C29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoUserInputs20230315.swift"; sourceTree = "<group>"; };
 		256FC53A29B6EC0100098798 /* ContentView-DemoShapes20230306.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoShapes20230306.swift"; sourceTree = "<group>"; };
 		258B480D29BC22AD00FEC6C5 /* ContentView-DemoCopyToClipboard20230310.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoCopyToClipboard20230310.swift"; sourceTree = "<group>"; };
 		258DFC6F29BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoLinearGradient20230311.swift"; sourceTree = "<group>"; };
@@ -173,6 +175,14 @@
 			path = "Grid View";
 			sourceTree = "<group>";
 		};
+		256D118B29C2AECD009596EA /* User Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				256D118C29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift */,
+			);
+			path = "User Inputs";
+			sourceTree = "<group>";
+		};
 		256FC53929B6EBD100098798 /* Standard Shapes in SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +264,7 @@
 		25D1898429B043D200C9DC95 /* 202303-Mar 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				256D118B29C2AECD009596EA /* User Inputs */,
 				25E35FF429C0051100B88CE9 /* Pickers in SwiftUI */,
 				258DFC6E29BD798E0097CCC6 /* Linear Gradient */,
 				258B480C29BC227900FEC6C5 /* Copy to Clipboard */,
@@ -438,6 +449,7 @@
 				25D1898929B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift in Sources */,
 				2542683629AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift in Sources */,
 				2569394D29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift in Sources */,
+				256D118D29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift in Sources */,
 				25AA147229AC4E1000970AF1 /* iOSDevXApp.swift in Sources */,
 				2514688329B2D830003FEDB8 /* ContentView-DemoLinks20230303.swift in Sources */,
 				25D1898329B03EAF00C9DC95 /* ContentView-DemoAsycImg20230301.swift in Sources */,
