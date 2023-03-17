@@ -28,6 +28,8 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Mar 2023
+[Map in SwiftUI](https://xavier7t.com/map-in-swiftui)
+
 [User Inputs in SwiftUI](https://xavier7t.com/user-inputs-in-swiftui)
 
 [Linear Gradient in SwiftUI](https://xavier7t.com/line-gradient-in-swiftui)
