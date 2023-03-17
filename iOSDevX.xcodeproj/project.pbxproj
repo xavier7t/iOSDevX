@@ -27,6 +27,8 @@
 		25AA147229AC4E1000970AF1 /* iOSDevXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AA147129AC4E1000970AF1 /* iOSDevXApp.swift */; };
 		25AA147629AC4E1000970AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AA147529AC4E1000970AF1 /* Assets.xcassets */; };
 		25AA147929AC4E1000970AF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AA147829AC4E1000970AF1 /* Preview Assets.xcassets */; };
+		25CD9DAC29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CD9DAB29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift */; };
+		25CD9DAE29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CD9DAD29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift */; };
 		25D1898329B03EAF00C9DC95 /* ContentView-DemoAsycImg20230301.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D1898229B03EAF00C9DC95 /* ContentView-DemoAsycImg20230301.swift */; };
 		25D1898729B0545D00C9DC95 /* ContentView-DemoColorPicker20230213.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D1898629B0545D00C9DC95 /* ContentView-DemoColorPicker20230213.swift */; };
 		25D1898929B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D1898829B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift */; };
@@ -65,6 +67,8 @@
 		25AA147129AC4E1000970AF1 /* iOSDevXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDevXApp.swift; sourceTree = "<group>"; };
 		25AA147529AC4E1000970AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25AA147829AC4E1000970AF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25CD9DAB29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoMapKit20230316.swift"; sourceTree = "<group>"; };
+		25CD9DAD29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoMapWithPin2023.swift"; sourceTree = "<group>"; };
 		25D1898229B03EAF00C9DC95 /* ContentView-DemoAsycImg20230301.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoAsycImg20230301.swift"; sourceTree = "<group>"; };
 		25D1898629B0545D00C9DC95 /* ContentView-DemoColorPicker20230213.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoColorPicker20230213.swift"; sourceTree = "<group>"; };
 		25D1898829B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomColorPickerView-DemoColorPicker20230213.swift"; sourceTree = "<group>"; };
@@ -253,6 +257,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		25CD9DAA29C3FA7E000C6785 /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				25CD9DAB29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift */,
+				25CD9DAD29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift */,
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
 		25D1898129B03DA000C9DC95 /* AsyncImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +277,7 @@
 		25D1898429B043D200C9DC95 /* 202303-Mar 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				25CD9DAA29C3FA7E000C6785 /* MapKit */,
 				256D118B29C2AECD009596EA /* User Inputs */,
 				25E35FF429C0051100B88CE9 /* Pickers in SwiftUI */,
 				258DFC6E29BD798E0097CCC6 /* Linear Gradient */,
@@ -450,6 +464,7 @@
 				2542683629AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift in Sources */,
 				2569394D29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift in Sources */,
 				256D118D29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift in Sources */,
+				25CD9DAE29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift in Sources */,
 				25AA147229AC4E1000970AF1 /* iOSDevXApp.swift in Sources */,
 				2514688329B2D830003FEDB8 /* ContentView-DemoLinks20230303.swift in Sources */,
 				25D1898329B03EAF00C9DC95 /* ContentView-DemoAsycImg20230301.swift in Sources */,
@@ -458,6 +473,7 @@
 				25326D0629B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift in Sources */,
 				25D76B2B29AD949F00226176 /* ContentView-DemoMenuButton20230208.swift in Sources */,
 				25D76B3529AD966200226176 /* Persistence-DemoCoreData20230210.swift in Sources */,
+				25CD9DAC29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift in Sources */,
 				25D76B3929AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
