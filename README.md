@@ -28,6 +28,8 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Mar 2023
+[ForEach in SwiftUI](https://xavier7t.com/foreach-in-swiftui)
+
 [Geometry Reader in SwiftUI](https://xavier7t.com/geometry-reader-in-swiftui)
 
 [Map in SwiftUI](https://xavier7t.com/map-in-swiftui)
