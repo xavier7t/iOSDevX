@@ -11,6 +11,7 @@
 		2517047929BADB9A0038139B /* ContentView-DemoSheetAnd3DRotation20230309.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2517047829BADB9A0038139B /* ContentView-DemoSheetAnd3DRotation20230309.swift */; };
 		252EC1A629B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252EC1A529B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift */; };
 		25326D0629B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */; };
+		253D252B29C7F20900EBAD9C /* ContentView-DemoDelegatePattern20230319.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253D252A29C7F20900EBAD9C /* ContentView-DemoDelegatePattern20230319.swift */; };
 		2542682D29AC4F240039ECF6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2542682C29AC4F240039ECF6 /* README.md */; };
 		2542682F29AC4F370039ECF6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2542682E29AC4F370039ECF6 /* .gitignore */; };
 		2542683529AC4FF40039ECF6 /* ViewModel-DemoSearchable20230207.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683229AC4FF40039ECF6 /* ViewModel-DemoSearchable20230207.swift */; };
@@ -52,6 +53,7 @@
 		2517047829BADB9A0038139B /* ContentView-DemoSheetAnd3DRotation20230309.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoSheetAnd3DRotation20230309.swift"; sourceTree = "<group>"; };
 		252EC1A529B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoRESTAPI20230305.swift"; sourceTree = "<group>"; };
 		25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGroup20230302.swift"; sourceTree = "<group>"; };
+		253D252A29C7F20900EBAD9C /* ContentView-DemoDelegatePattern20230319.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoDelegatePattern20230319.swift"; sourceTree = "<group>"; };
 		2542682C29AC4F240039ECF6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2542682E29AC4F370039ECF6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2542683229AC4FF40039ECF6 /* ViewModel-DemoSearchable20230207.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewModel-DemoSearchable20230207.swift"; sourceTree = "<group>"; };
@@ -130,6 +132,14 @@
 				25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */,
 			);
 			path = Group;
+			sourceTree = "<group>";
+		};
+		253D254629C8013700EBAD9C /* Delegate Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				253D252A29C7F20900EBAD9C /* ContentView-DemoDelegatePattern20230319.swift */,
+			);
+			path = "Delegate Pattern";
 			sourceTree = "<group>";
 		};
 		2542683029AC4FA90039ECF6 /* 202302-Feb 2023 */ = {
@@ -297,6 +307,7 @@
 		25D1898429B043D200C9DC95 /* 202303-Mar 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				253D254629C8013700EBAD9C /* Delegate Pattern */,
 				25C9522D29C6A36E00B1D640 /* ForEach in SwiftUI */,
 				256A776D29C55F0F006F3576 /* Geometry Reader in SwiftUI */,
 				25CD9DAA29C3FA7E000C6785 /* MapKit */,
@@ -486,6 +497,7 @@
 				25D3439929AEE179009E736D /* ContentView-DemoCodableImage20230211.swift in Sources */,
 				25D1898929B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift in Sources */,
 				2542683629AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift in Sources */,
+				253D252B29C7F20900EBAD9C /* ContentView-DemoDelegatePattern20230319.swift in Sources */,
 				2569394D29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift in Sources */,
 				256D118D29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift in Sources */,
 				25CD9DAE29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift in Sources */,
