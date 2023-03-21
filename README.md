@@ -4,15 +4,15 @@
 This repo hosts the source code and resources for the Swift tech blog: [iOSDevX](https://xavier7t.com) by me, Xavier.
 
 ## 🔥Top 5 Hits🔥
-[Charts in SwiftUI](https://xavier7t.com/charts-in-swiftui)
-
 [Grid View in SwiftUI](https://xavier7t.com/grid-view-in-swiftui)
 
 [Searchable List in SwiftUI](https://xavier7t.com/searchable-list-in-swiftui)
 
-[CRUD with Core Data in SwiftUI](https://xavier7t.com/crud-with-core-data-in-swiftui)
+[Geometry Reader in SwiftUI](https://xavier7t.com/geometry-reader-in-swiftui)
 
-[Interactive Charts in SwiftUI](https://xavier7t.com/interactive-charts-in-swiftui)
+[Charts in SwiftUI](https://xavier7t.com/charts-in-swiftui)
+
+[Work with JSON files in the iOS document directory](https://xavier7t.com/work-with-json-files-in-the-ios-document-directory)
 
 ## 👨‍🍳Chef’s recommendation👨‍🍳
 [CRUD with Core Data in SwiftUI](https://xavier7t.com/crud-with-core-data-in-swiftui)
@@ -25,9 +25,13 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 
 [Sheet and 3D Rotation in SwiftUI](https://xavier7t.com/swiftui-sheet-and-3d-rotation)
 
+[List with Sort Options](https://xavier7t.com/swiftui-list-with-sort-options)
+
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Mar 2023
+[List with Sort Options](https://xavier7t.com/swiftui-list-with-sort-options)
+
 [Delegate Pattern Explained](https://xavier7t.com/delegate-pattern-explained)
 
 [ForEach in SwiftUI](https://xavier7t.com/foreach-in-swiftui)
