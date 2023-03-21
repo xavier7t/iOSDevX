@@ -11,6 +11,7 @@
 		2517047929BADB9A0038139B /* ContentView-DemoSheetAnd3DRotation20230309.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2517047829BADB9A0038139B /* ContentView-DemoSheetAnd3DRotation20230309.swift */; };
 		252EC1A629B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252EC1A529B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift */; };
 		25326D0629B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */; };
+		2532F9C529C9453500B2E1BB /* ContentView-DemoSortOptions20230320.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2532F9C429C9453500B2E1BB /* ContentView-DemoSortOptions20230320.swift */; };
 		253D252B29C7F20900EBAD9C /* ContentView-DemoDelegatePattern20230319.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253D252A29C7F20900EBAD9C /* ContentView-DemoDelegatePattern20230319.swift */; };
 		2542682D29AC4F240039ECF6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2542682C29AC4F240039ECF6 /* README.md */; };
 		2542682F29AC4F370039ECF6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2542682E29AC4F370039ECF6 /* .gitignore */; };
@@ -53,6 +54,7 @@
 		2517047829BADB9A0038139B /* ContentView-DemoSheetAnd3DRotation20230309.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoSheetAnd3DRotation20230309.swift"; sourceTree = "<group>"; };
 		252EC1A529B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoRESTAPI20230305.swift"; sourceTree = "<group>"; };
 		25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGroup20230302.swift"; sourceTree = "<group>"; };
+		2532F9C429C9453500B2E1BB /* ContentView-DemoSortOptions20230320.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoSortOptions20230320.swift"; sourceTree = "<group>"; };
 		253D252A29C7F20900EBAD9C /* ContentView-DemoDelegatePattern20230319.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoDelegatePattern20230319.swift"; sourceTree = "<group>"; };
 		2542682C29AC4F240039ECF6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2542682E29AC4F370039ECF6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -132,6 +134,14 @@
 				25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */,
 			);
 			path = Group;
+			sourceTree = "<group>";
+		};
+		2532F9C629C9535000B2E1BB /* Sort Options */ = {
+			isa = PBXGroup;
+			children = (
+				2532F9C429C9453500B2E1BB /* ContentView-DemoSortOptions20230320.swift */,
+			);
+			path = "Sort Options";
 			sourceTree = "<group>";
 		};
 		253D254629C8013700EBAD9C /* Delegate Pattern */ = {
@@ -307,6 +317,7 @@
 		25D1898429B043D200C9DC95 /* 202303-Mar 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				2532F9C629C9535000B2E1BB /* Sort Options */,
 				253D254629C8013700EBAD9C /* Delegate Pattern */,
 				25C9522D29C6A36E00B1D640 /* ForEach in SwiftUI */,
 				256A776D29C55F0F006F3576 /* Geometry Reader in SwiftUI */,
@@ -484,6 +495,7 @@
 				256FC53B29B6EC0100098798 /* ContentView-DemoShapes20230306.swift in Sources */,
 				256A776F29C55F55006F3576 /* ContentView-DemoGeometryReader20230317.swift in Sources */,
 				25E35FF629C0053200B88CE9 /* ContentView-DemoPicker20230313.swift in Sources */,
+				2532F9C529C9453500B2E1BB /* ContentView-DemoSortOptions20230320.swift in Sources */,
 				25C9522C29C6916300B1D640 /* ContentView-DemoForEach20230318.swift in Sources */,
 				258B480E29BC22AD00FEC6C5 /* ContentView-DemoCopyToClipboard20230310.swift in Sources */,
 				2517047929BADB9A0038139B /* ContentView-DemoSheetAnd3DRotation20230309.swift in Sources */,
