@@ -30,6 +30,8 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Mar 2023
+[Welcome View with a Page-styled TabView](https://xavier7t.com/create-a-page-view-in-swiftui)
+
 [List with Sort Options](https://xavier7t.com/swiftui-list-with-sort-options)
 
 [Delegate Pattern Explained](https://xavier7t.com/delegate-pattern-explained)
