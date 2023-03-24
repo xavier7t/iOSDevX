@@ -9,10 +9,13 @@ import SwiftUI
 
 struct ContentView_DemoStepper20230323: View {
     var body: some View {
-        VStack {
-            StepperView()
-            StepperView2()
-            StepperView3()
+        NavigationStack {
+            VStack {
+                StepperView()
+                StepperView2()
+                StepperView3()
+            }
+            .navigationTitle("Steppers")
         }
     }
     // MARK: - Basic Usage
