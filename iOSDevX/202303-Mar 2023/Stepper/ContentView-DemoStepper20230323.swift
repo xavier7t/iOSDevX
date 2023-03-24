@@ -51,7 +51,7 @@ struct ContentView_DemoStepper20230323: View {
 }
 
 // MARK: - Preview
-struct StepperView_Previews: PreviewProvider {
+struct ContentView_DemoStepper20230323_Previews: PreviewProvider {
     static var previews: some View {
         ContentView_DemoStepper20230323()
     }
