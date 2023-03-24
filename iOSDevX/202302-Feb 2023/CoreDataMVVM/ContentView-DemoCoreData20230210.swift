@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView_DemoCoreData20230210: View {
-    @StateObject var vm: ViewModel = ViewModel()
+    @StateObject var vm: ViewModel_DemoCoreData20230210 = ViewModel_DemoCoreData20230210()
 
     var body: some View {
         NavigationStack {

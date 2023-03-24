@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ViewModel: ObservableObject {
+class ViewModel_DemoCoreData20230210: ObservableObject {
     // save fetched notes for view loading
     @Published var notes: [Note] = []
     
