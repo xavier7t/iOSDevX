@@ -33,6 +33,7 @@
 		25AA147629AC4E1000970AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AA147529AC4E1000970AF1 /* Assets.xcassets */; };
 		25AA147929AC4E1000970AF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AA147829AC4E1000970AF1 /* Preview Assets.xcassets */; };
 		25B4B57529CA6200000494E4 /* ContentView-DemoPageView20230321.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4B57429CA6200000494E4 /* ContentView-DemoPageView20230321.swift */; };
+		25BAE6BF29CE833400D62578 /* ContentView-DemoTernaryOperator20230324.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BAE6BE29CE833400D62578 /* ContentView-DemoTernaryOperator20230324.swift */; };
 		25C9522C29C6916300B1D640 /* ContentView-DemoForEach20230318.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9522B29C6916300B1D640 /* ContentView-DemoForEach20230318.swift */; };
 		25CD9DAC29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CD9DAB29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift */; };
 		25CD9DAE29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CD9DAD29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift */; };
@@ -80,6 +81,7 @@
 		25AA147529AC4E1000970AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25AA147829AC4E1000970AF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25B4B57429CA6200000494E4 /* ContentView-DemoPageView20230321.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoPageView20230321.swift"; sourceTree = "<group>"; };
+		25BAE6BE29CE833400D62578 /* ContentView-DemoTernaryOperator20230324.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoTernaryOperator20230324.swift"; sourceTree = "<group>"; };
 		25C9522B29C6916300B1D640 /* ContentView-DemoForEach20230318.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoForEach20230318.swift"; sourceTree = "<group>"; };
 		25CD9DAB29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoMapKit20230316.swift"; sourceTree = "<group>"; };
 		25CD9DAD29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoMapWithPin2023.swift"; sourceTree = "<group>"; };
@@ -319,6 +321,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		25BAE6C029CE8CB400D62578 /* Ternary Operator in SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				25BAE6BE29CE833400D62578 /* ContentView-DemoTernaryOperator20230324.swift */,
+			);
+			path = "Ternary Operator in SwiftUI";
+			sourceTree = "<group>";
+		};
 		25C9522D29C6A36E00B1D640 /* ForEach in SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -347,6 +357,7 @@
 		25D1898429B043D200C9DC95 /* 202303-Mar 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				25BAE6C029CE8CB400D62578 /* Ternary Operator in SwiftUI */,
 				251A63D829CD4A2F00843F54 /* Stepper */,
 				2547226729CBF6B70091CB54 /* Toolbar Item in SwiftUI */,
 				2597F7C129CAAF2D000E4EB3 /* Page View in SwiftUI */,
@@ -556,6 +567,7 @@
 				25D76B3129AD95C500226176 /* ContentView-DemoCoreData20230210.swift in Sources */,
 				25326D0629B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift in Sources */,
 				25D76B2B29AD949F00226176 /* ContentView-DemoMenuButton20230208.swift in Sources */,
+				25BAE6BF29CE833400D62578 /* ContentView-DemoTernaryOperator20230324.swift in Sources */,
 				25D76B3529AD966200226176 /* Persistence-DemoCoreData20230210.swift in Sources */,
 				25CD9DAC29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift in Sources */,
 				25D76B3929AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift in Sources */,
