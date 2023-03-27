@@ -30,6 +30,8 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Mar 2023
+[DatePicker in SwiftUI](https://xavier7t.com/date-picker-in-swiftui)
+
 [Ternary Operator in SwiftUI](https://xavier7t.com/ternary-operator-in-swiftui)
 
 [Stepper in SwiftUI](https://xavier7t.com/stepper-in-swiftui)

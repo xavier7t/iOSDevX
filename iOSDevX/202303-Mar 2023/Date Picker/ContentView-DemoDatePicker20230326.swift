@@ -50,13 +50,6 @@ extension ContentView_DemoDatePicker20230326 {
                 Text("Selected date: \(selectedDate.formatted(date: .abbreviated, time: .omitted))")
             }
         }
-        
-        private var dateFormatter: DateFormatter {
-            let formatter = DateFormatter()
-            formatter.dateStyle = .long
-            formatter.timeStyle = .none
-            return formatter
-        }
     }
     //MARK: - Style Configuration
     struct ContentView3: View {
