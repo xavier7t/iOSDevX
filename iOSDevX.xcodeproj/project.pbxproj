@@ -14,6 +14,7 @@
 		252EC1A629B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252EC1A529B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift */; };
 		25326D0629B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */; };
 		2532F9C529C9453500B2E1BB /* ContentView-DemoSortOptions20230320.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2532F9C429C9453500B2E1BB /* ContentView-DemoSortOptions20230320.swift */; };
+		2534EA3029D12EA200FFE9CA /* ContentView-DemoDatePicker20230326.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2534EA2F29D12EA200FFE9CA /* ContentView-DemoDatePicker20230326.swift */; };
 		253D252B29C7F20900EBAD9C /* ContentView-DemoDelegatePattern20230319.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253D252A29C7F20900EBAD9C /* ContentView-DemoDelegatePattern20230319.swift */; };
 		2542682D29AC4F240039ECF6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2542682C29AC4F240039ECF6 /* README.md */; };
 		2542682F29AC4F370039ECF6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2542682E29AC4F370039ECF6 /* .gitignore */; };
@@ -61,6 +62,7 @@
 		252EC1A529B57AA400E58960 /* ContentView-DemoRESTAPI20230305.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoRESTAPI20230305.swift"; sourceTree = "<group>"; };
 		25326D0529B194B400BEDBD9 /* ContentView-DemoGroup20230302.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGroup20230302.swift"; sourceTree = "<group>"; };
 		2532F9C429C9453500B2E1BB /* ContentView-DemoSortOptions20230320.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoSortOptions20230320.swift"; sourceTree = "<group>"; };
+		2534EA2F29D12EA200FFE9CA /* ContentView-DemoDatePicker20230326.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoDatePicker20230326.swift"; sourceTree = "<group>"; };
 		253D252A29C7F20900EBAD9C /* ContentView-DemoDelegatePattern20230319.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoDelegatePattern20230319.swift"; sourceTree = "<group>"; };
 		2542682C29AC4F240039ECF6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2542682E29AC4F370039ECF6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -158,6 +160,14 @@
 				2532F9C429C9453500B2E1BB /* ContentView-DemoSortOptions20230320.swift */,
 			);
 			path = "Sort Options";
+			sourceTree = "<group>";
+		};
+		2534EA3129D134A900FFE9CA /* Date Picker */ = {
+			isa = PBXGroup;
+			children = (
+				2534EA2F29D12EA200FFE9CA /* ContentView-DemoDatePicker20230326.swift */,
+			);
+			path = "Date Picker";
 			sourceTree = "<group>";
 		};
 		253D254629C8013700EBAD9C /* Delegate Pattern */ = {
@@ -357,6 +367,7 @@
 		25D1898429B043D200C9DC95 /* 202303-Mar 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				2534EA3129D134A900FFE9CA /* Date Picker */,
 				25BAE6C029CE8CB400D62578 /* Ternary Operator in SwiftUI */,
 				251A63D829CD4A2F00843F54 /* Stepper */,
 				2547226729CBF6B70091CB54 /* Toolbar Item in SwiftUI */,
@@ -569,6 +580,7 @@
 				25D76B2B29AD949F00226176 /* ContentView-DemoMenuButton20230208.swift in Sources */,
 				25BAE6BF29CE833400D62578 /* ContentView-DemoTernaryOperator20230324.swift in Sources */,
 				25D76B3529AD966200226176 /* Persistence-DemoCoreData20230210.swift in Sources */,
+				2534EA3029D12EA200FFE9CA /* ContentView-DemoDatePicker20230326.swift in Sources */,
 				25CD9DAC29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift in Sources */,
 				25D76B3929AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift in Sources */,
 			);
