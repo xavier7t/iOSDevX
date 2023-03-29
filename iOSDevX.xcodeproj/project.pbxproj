@@ -29,6 +29,7 @@
 		256FC53B29B6EC0100098798 /* ContentView-DemoShapes20230306.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FC53A29B6EC0100098798 /* ContentView-DemoShapes20230306.swift */; };
 		258B480E29BC22AD00FEC6C5 /* ContentView-DemoCopyToClipboard20230310.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B480D29BC22AD00FEC6C5 /* ContentView-DemoCopyToClipboard20230310.swift */; };
 		258DFC7029BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258DFC6F29BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift */; };
+		2590E03829D3D36F005011DA /* ContentView-DemoAlert20230328.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2590E03729D3D36F005011DA /* ContentView-DemoAlert20230328.swift */; };
 		2597082B29B427AC008D2BF7 /* ContentView-DemoState20230304.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2597082A29B427AC008D2BF7 /* ContentView-DemoState20230304.swift */; };
 		25AA147229AC4E1000970AF1 /* iOSDevXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AA147129AC4E1000970AF1 /* iOSDevXApp.swift */; };
 		25AA147629AC4E1000970AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AA147529AC4E1000970AF1 /* Assets.xcassets */; };
@@ -77,6 +78,7 @@
 		256FC53A29B6EC0100098798 /* ContentView-DemoShapes20230306.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoShapes20230306.swift"; sourceTree = "<group>"; };
 		258B480D29BC22AD00FEC6C5 /* ContentView-DemoCopyToClipboard20230310.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoCopyToClipboard20230310.swift"; sourceTree = "<group>"; };
 		258DFC6F29BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoLinearGradient20230311.swift"; sourceTree = "<group>"; };
+		2590E03729D3D36F005011DA /* ContentView-DemoAlert20230328.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoAlert20230328.swift"; sourceTree = "<group>"; };
 		2597082A29B427AC008D2BF7 /* ContentView-DemoState20230304.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoState20230304.swift"; sourceTree = "<group>"; };
 		25AA146E29AC4E1000970AF1 /* iOSDevX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AA147129AC4E1000970AF1 /* iOSDevXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDevXApp.swift; sourceTree = "<group>"; };
@@ -277,6 +279,14 @@
 			path = "Linear Gradient";
 			sourceTree = "<group>";
 		};
+		2590E03929D3D8CD005011DA /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				2590E03729D3D36F005011DA /* ContentView-DemoAlert20230328.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		2597082929B42743008D2BF7 /* State in SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -367,6 +377,7 @@
 		25D1898429B043D200C9DC95 /* 202303-Mar 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				2590E03929D3D8CD005011DA /* Alert */,
 				2534EA3129D134A900FFE9CA /* Date Picker */,
 				25BAE6C029CE8CB400D62578 /* Ternary Operator in SwiftUI */,
 				251A63D829CD4A2F00843F54 /* Stepper */,
@@ -542,6 +553,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2590E03829D3D36F005011DA /* ContentView-DemoAlert20230328.swift in Sources */,
 				2542683729AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift in Sources */,
 				25B4B57529CA6200000494E4 /* ContentView-DemoPageView20230321.swift in Sources */,
 				2524754429CBE9D500532385 /* ContentView-DemoToolbarItem20230322.swift in Sources */,
