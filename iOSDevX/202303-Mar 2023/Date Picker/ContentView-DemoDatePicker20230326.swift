@@ -22,7 +22,7 @@ struct ContentView_DemoDatePicker20230326: View {
     }
 }
 
-struct TestView_Previews: PreviewProvider {
+struct ContentView_DemoDatePicker20230326_Previews: PreviewProvider {
     static var previews: some View {
         ContentView_DemoDatePicker20230326()
     }
