@@ -23,7 +23,7 @@ struct ContentView_DemoProgressView20230329: View {
     }
 }
 
-struct TestView_Previews: PreviewProvider {
+struct ContentView_DemoProgressView20230329_Previews: PreviewProvider {
     static var previews: some View {
         ContentView_DemoProgressView20230329()
     }
