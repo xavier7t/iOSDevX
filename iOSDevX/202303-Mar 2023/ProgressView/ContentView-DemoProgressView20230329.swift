@@ -21,6 +21,62 @@ struct ContentView_DemoProgressView20230329: View {
             .navigationTitle("Progress View")
         }
     }
+    struct ContentView1: View {
+        @State private var progressValue = 0.5
+        
+        var body: some View {
+            VStack {
+                ProgressView(value: progressValue)
+                Button("Increase Progress") {
+                    progressValue += 0.1
+                }
+            }
+        }
+    }
+
+    struct ContentView2: View {
+        @State private var progressValue = 0.5
+        
+        var body: some View {
+            VStack {
+                ProgressView(value: progressValue)
+                    .progressViewStyle(CircularProgressViewStyle(tint: .red))
+                    .accentColor(.blue)
+                    .padding(20)
+                    .background(Color.gray.opacity(0.3))
+                    .cornerRadius(20)
+                Button("Increase Progress") {
+                    progressValue += 0.1
+                }
+            }
+        }
+    }
+
+    struct ContentView3: View {
+        @State private var progressValue = 0.0
+        
+        var body: some View {
+            VStack {
+                if progressValue < 1.0 {
+                    ProgressView(value: progressValue, total: 1)
+                        .progressViewStyle(LinearProgressViewStyle())
+                } else {
+                    Text("Task completed.")
+                }
+                Button("Increase Progress") {
+                    withAnimation {
+                        progressValue += 0.1
+                    }
+                }
+            }
+            .onChange(of: progressValue) { newValue in
+                if newValue >= 1.0 {
+                    print("Task Completed.")
+                }
+            }
+        }
+    }
+
 }
 
 struct ContentView_DemoProgressView20230329_Previews: PreviewProvider {
@@ -29,58 +85,3 @@ struct ContentView_DemoProgressView20230329_Previews: PreviewProvider {
     }
 }
 
-struct ContentView1: View {
-    @State private var progressValue = 0.5
-    
-    var body: some View {
-        VStack {
-            ProgressView(value: progressValue)
-            Button("Increase Progress") {
-                progressValue += 0.1
-            }
-        }
-    }
-}
-
-struct ContentView2: View {
-    @State private var progressValue = 0.5
-    
-    var body: some View {
-        VStack {
-            ProgressView(value: progressValue)
-                .progressViewStyle(CircularProgressViewStyle(tint: .red))
-                .accentColor(.blue)
-                .padding(20)
-                .background(Color.gray.opacity(0.3))
-                .cornerRadius(20)
-            Button("Increase Progress") {
-                progressValue += 0.1
-            }
-        }
-    }
-}
-
-struct ContentView3: View {
-    @State private var progressValue = 0.0
-    
-    var body: some View {
-        VStack {
-            if progressValue < 1.0 {
-                ProgressView(value: progressValue, total: 1)
-                    .progressViewStyle(LinearProgressViewStyle())
-            } else {
-                Text("Task completed.")
-            }
-            Button("Increase Progress") {
-                withAnimation {
-                    progressValue += 0.1
-                }
-            }
-        }
-        .onChange(of: progressValue) { newValue in
-            if newValue >= 1.0 {
-                print("Task Completed.")
-            }
-        }
-    }
-}
