@@ -24,6 +24,7 @@
 		2542683C29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683B29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift */; };
 		255D67BC29DBA92B00CCD2CB /* ContentView-DemoDragGesture20230403.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255D67BB29DBA92B00CCD2CB /* ContentView-DemoDragGesture20230403.swift */; };
 		255D776229B807CB000A901B /* ContentView-DemoCustomShape20230307.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255D776129B807CB000A901B /* ContentView-DemoCustomShape20230307.swift */; };
+		25674A0E29DD2148005E74CB /* ContentView-DemoMagnificationGesture20230404.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25674A0D29DD2148005E74CB /* ContentView-DemoMagnificationGesture20230404.swift */; };
 		2569394D29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2569394C29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift */; };
 		256A776F29C55F55006F3576 /* ContentView-DemoGeometryReader20230317.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A776E29C55F55006F3576 /* ContentView-DemoGeometryReader20230317.swift */; };
 		256D118D29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D118C29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift */; };
@@ -76,6 +77,7 @@
 		2542683B29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoDynamicIslandNotification20230226.swift"; sourceTree = "<group>"; };
 		255D67BB29DBA92B00CCD2CB /* ContentView-DemoDragGesture20230403.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoDragGesture20230403.swift"; sourceTree = "<group>"; };
 		255D776129B807CB000A901B /* ContentView-DemoCustomShape20230307.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoCustomShape20230307.swift"; sourceTree = "<group>"; };
+		25674A0D29DD2148005E74CB /* ContentView-DemoMagnificationGesture20230404.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoMagnificationGesture20230404.swift"; sourceTree = "<group>"; };
 		2569394C29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGridView20230308.swift"; sourceTree = "<group>"; };
 		256A776E29C55F55006F3576 /* ContentView-DemoGeometryReader20230317.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGeometryReader20230317.swift"; sourceTree = "<group>"; };
 		256D118C29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoUserInputs20230315.swift"; sourceTree = "<group>"; };
@@ -232,7 +234,8 @@
 		255D67BA29DBA8FA00CCD2CB /* 202304-Apr 2023 */ = {
 			isa = PBXGroup;
 			children = (
-				255D67BB29DBA92B00CCD2CB /* ContentView-DemoDragGesture20230403.swift */,
+				25674A1029DD2391005E74CB /* Magnification Gesture */,
+				25674A0F29DD2385005E74CB /* Drag Gesture */,
 			);
 			path = "202304-Apr 2023";
 			sourceTree = "<group>";
@@ -243,6 +246,22 @@
 				255D776129B807CB000A901B /* ContentView-DemoCustomShape20230307.swift */,
 			);
 			path = "Custom Shape";
+			sourceTree = "<group>";
+		};
+		25674A0F29DD2385005E74CB /* Drag Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				255D67BB29DBA92B00CCD2CB /* ContentView-DemoDragGesture20230403.swift */,
+			);
+			path = "Drag Gesture";
+			sourceTree = "<group>";
+		};
+		25674A1029DD2391005E74CB /* Magnification Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				25674A0D29DD2148005E74CB /* ContentView-DemoMagnificationGesture20230404.swift */,
+			);
+			path = "Magnification Gesture";
 			sourceTree = "<group>";
 		};
 		2569394B29B9316400BC9AD5 /* Grid View */ = {
@@ -630,6 +649,7 @@
 				25D76B3529AD966200226176 /* Persistence-DemoCoreData20230210.swift in Sources */,
 				2534EA3029D12EA200FFE9CA /* ContentView-DemoDatePicker20230326.swift in Sources */,
 				25CD9DAC29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift in Sources */,
+				25674A0E29DD2148005E74CB /* ContentView-DemoMagnificationGesture20230404.swift in Sources */,
 				25D76B3929AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
