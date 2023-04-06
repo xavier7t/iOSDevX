@@ -56,6 +56,7 @@
 		25D76B3529AD966200226176 /* Persistence-DemoCoreData20230210.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D76B3429AD966200226176 /* Persistence-DemoCoreData20230210.swift */; };
 		25D76B3929AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D76B3829AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift */; };
 		25E35FF629C0053200B88CE9 /* ContentView-DemoPicker20230313.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E35FF529C0053200B88CE9 /* ContentView-DemoPicker20230313.swift */; };
+		25F052FC29DE771500EA06EC /* ContentView-Demo3DButton20230405.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F052FB29DE771500EA06EC /* ContentView-Demo3DButton20230405.swift */; };
 		25FFBDC229D6782100EF4F73 /* ContentView-DemoGaugeView20230331.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FFBDC129D6782100EF4F73 /* ContentView-DemoGaugeView20230331.swift */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +111,7 @@
 		25D76B3429AD966200226176 /* Persistence-DemoCoreData20230210.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persistence-DemoCoreData20230210.swift"; sourceTree = "<group>"; };
 		25D76B3829AD9B6100226176 /* ContentView-DemoLocalJSON20230227.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoLocalJSON20230227.swift"; sourceTree = "<group>"; };
 		25E35FF529C0053200B88CE9 /* ContentView-DemoPicker20230313.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoPicker20230313.swift"; sourceTree = "<group>"; };
+		25F052FB29DE771500EA06EC /* ContentView-Demo3DButton20230405.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-Demo3DButton20230405.swift"; sourceTree = "<group>"; };
 		25FFBDC129D6782100EF4F73 /* ContentView-DemoGaugeView20230331.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGaugeView20230331.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -234,6 +236,7 @@
 		255D67BA29DBA8FA00CCD2CB /* 202304-Apr 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				25F052FA29DE770000EA06EC /* 3D Button */,
 				25674A1029DD2391005E74CB /* Magnification Gesture */,
 				25674A0F29DD2385005E74CB /* Drag Gesture */,
 			);
@@ -525,6 +528,14 @@
 			path = "Pickers in SwiftUI";
 			sourceTree = "<group>";
 		};
+		25F052FA29DE770000EA06EC /* 3D Button */ = {
+			isa = PBXGroup;
+			children = (
+				25F052FB29DE771500EA06EC /* ContentView-Demo3DButton20230405.swift */,
+			);
+			path = "3D Button";
+			sourceTree = "<group>";
+		};
 		25FFBDC329D69A6300EF4F73 /* Gauge View */ = {
 			isa = PBXGroup;
 			children = (
@@ -615,6 +626,7 @@
 				258DFC7029BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift in Sources */,
 				25D3439F29AEE63A009E736D /* DemoInitializers20230228.swift in Sources */,
 				256FC53B29B6EC0100098798 /* ContentView-DemoShapes20230306.swift in Sources */,
+				25F052FC29DE771500EA06EC /* ContentView-Demo3DButton20230405.swift in Sources */,
 				256A776F29C55F55006F3576 /* ContentView-DemoGeometryReader20230317.swift in Sources */,
 				25E35FF629C0053200B88CE9 /* ContentView-DemoPicker20230313.swift in Sources */,
 				2532F9C529C9453500B2E1BB /* ContentView-DemoSortOptions20230320.swift in Sources */,
