@@ -32,6 +32,8 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Apr 2023
+[Attributed String in SwiftUI](https://xavier7t.com/attributed-string-in-swiftui)
+
 [Async Task with Combine in SwiftUI](https://xavier7t.com/async-task-with-combine-in-swiftui)
 
 [Redaction in SwiftUI](https://xavier7t.com/redaction-in-swiftui)
