@@ -41,6 +41,7 @@
 		25AA147929AC4E1000970AF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AA147829AC4E1000970AF1 /* Preview Assets.xcassets */; };
 		25B4B57529CA6200000494E4 /* ContentView-DemoPageView20230321.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4B57429CA6200000494E4 /* ContentView-DemoPageView20230321.swift */; };
 		25BAE6BF29CE833400D62578 /* ContentView-DemoTernaryOperator20230324.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BAE6BE29CE833400D62578 /* ContentView-DemoTernaryOperator20230324.swift */; };
+		25C192D729E3BA5F009283AC /* ContentView-DemoAttributedString20230409.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C192D629E3BA5F009283AC /* ContentView-DemoAttributedString20230409.swift */; };
 		25C9522C29C6916300B1D640 /* ContentView-DemoForEach20230318.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9522B29C6916300B1D640 /* ContentView-DemoForEach20230318.swift */; };
 		25CD9DAC29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CD9DAB29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift */; };
 		25CD9DAE29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CD9DAD29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift */; };
@@ -98,6 +99,7 @@
 		25AA147829AC4E1000970AF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25B4B57429CA6200000494E4 /* ContentView-DemoPageView20230321.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoPageView20230321.swift"; sourceTree = "<group>"; };
 		25BAE6BE29CE833400D62578 /* ContentView-DemoTernaryOperator20230324.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoTernaryOperator20230324.swift"; sourceTree = "<group>"; };
+		25C192D629E3BA5F009283AC /* ContentView-DemoAttributedString20230409.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoAttributedString20230409.swift"; sourceTree = "<group>"; };
 		25C9522B29C6916300B1D640 /* ContentView-DemoForEach20230318.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoForEach20230318.swift"; sourceTree = "<group>"; };
 		25CD9DAB29C3FA96000C6785 /* ContentView-DemoMapKit20230316.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoMapKit20230316.swift"; sourceTree = "<group>"; };
 		25CD9DAD29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoMapWithPin2023.swift"; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 		255D67BA29DBA8FA00CCD2CB /* 202304-Apr 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				25C192D829E3C35F009283AC /* AttributedString */,
 				25997C3E29E2653F006FE636 /* Combine */,
 				2519FBA929E105F4007AF71B /* Redaction */,
 				25F052FA29DE770000EA06EC /* 3D Button */,
@@ -414,6 +417,14 @@
 				25BAE6BE29CE833400D62578 /* ContentView-DemoTernaryOperator20230324.swift */,
 			);
 			path = "Ternary Operator in SwiftUI";
+			sourceTree = "<group>";
+		};
+		25C192D829E3C35F009283AC /* AttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				25C192D629E3BA5F009283AC /* ContentView-DemoAttributedString20230409.swift */,
+			);
+			path = AttributedString;
 			sourceTree = "<group>";
 		};
 		25C9522D29C6A36E00B1D640 /* ForEach in SwiftUI */ = {
@@ -664,6 +675,7 @@
 				25D1898729B0545D00C9DC95 /* ContentView-DemoColorPicker20230213.swift in Sources */,
 				25D3439929AEE179009E736D /* ContentView-DemoCodableImage20230211.swift in Sources */,
 				25D1898929B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift in Sources */,
+				25C192D729E3BA5F009283AC /* ContentView-DemoAttributedString20230409.swift in Sources */,
 				25FFBDC229D6782100EF4F73 /* ContentView-DemoGaugeView20230331.swift in Sources */,
 				2542683629AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift in Sources */,
 				25997C3D29E25CFE006FE636 /* ContentView-DemoCombine20230408.swift in Sources */,
