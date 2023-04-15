@@ -28,6 +28,7 @@
 		25674A0E29DD2148005E74CB /* ContentView-DemoMagnificationGesture20230404.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25674A0D29DD2148005E74CB /* ContentView-DemoMagnificationGesture20230404.swift */; };
 		2569394D29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2569394C29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift */; };
 		256A776F29C55F55006F3576 /* ContentView-DemoGeometryReader20230317.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256A776E29C55F55006F3576 /* ContentView-DemoGeometryReader20230317.swift */; };
+		256B0A0D29E97741008B1203 /* Demo-ContentViewCryptoKit20230414.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B0A0C29E97741008B1203 /* Demo-ContentViewCryptoKit20230414.swift */; };
 		256D118D29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D118C29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift */; };
 		256FC53B29B6EC0100098798 /* ContentView-DemoShapes20230306.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FC53A29B6EC0100098798 /* ContentView-DemoShapes20230306.swift */; };
 		25726C1F29D523EE005B664A /* ContentView-DemoProgressView20230329.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25726C1E29D523EE005B664A /* ContentView-DemoProgressView20230329.swift */; };
@@ -86,6 +87,7 @@
 		25674A0D29DD2148005E74CB /* ContentView-DemoMagnificationGesture20230404.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoMagnificationGesture20230404.swift"; sourceTree = "<group>"; };
 		2569394C29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGridView20230308.swift"; sourceTree = "<group>"; };
 		256A776E29C55F55006F3576 /* ContentView-DemoGeometryReader20230317.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGeometryReader20230317.swift"; sourceTree = "<group>"; };
+		256B0A0C29E97741008B1203 /* Demo-ContentViewCryptoKit20230414.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Demo-ContentViewCryptoKit20230414.swift"; sourceTree = "<group>"; };
 		256D118C29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoUserInputs20230315.swift"; sourceTree = "<group>"; };
 		256FC53A29B6EC0100098798 /* ContentView-DemoShapes20230306.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoShapes20230306.swift"; sourceTree = "<group>"; };
 		25726C1E29D523EE005B664A /* ContentView-DemoProgressView20230329.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoProgressView20230329.swift"; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 		255D67BA29DBA8FA00CCD2CB /* 202304-Apr 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				256CFEA929EB07C50035A343 /* CryptoKit */,
 				257CD33C29E7A5D000122669 /* Coding Keys */,
 				25C192D829E3C35F009283AC /* AttributedString */,
 				25997C3E29E2653F006FE636 /* Combine */,
@@ -301,6 +304,14 @@
 				256A776E29C55F55006F3576 /* ContentView-DemoGeometryReader20230317.swift */,
 			);
 			path = "Geometry Reader in SwiftUI";
+			sourceTree = "<group>";
+		};
+		256CFEA929EB07C50035A343 /* CryptoKit */ = {
+			isa = PBXGroup;
+			children = (
+				256B0A0C29E97741008B1203 /* Demo-ContentViewCryptoKit20230414.swift */,
+			);
+			path = CryptoKit;
 			sourceTree = "<group>";
 		};
 		256D118B29C2AECD009596EA /* User Inputs */ = {
@@ -684,6 +695,7 @@
 				25D76B2F29AD95A400226176 /* Model20230210.xcdatamodeld in Sources */,
 				2597082B29B427AC008D2BF7 /* ContentView-DemoState20230304.swift in Sources */,
 				25D1898729B0545D00C9DC95 /* ContentView-DemoColorPicker20230213.swift in Sources */,
+				256B0A0D29E97741008B1203 /* Demo-ContentViewCryptoKit20230414.swift in Sources */,
 				25D3439929AEE179009E736D /* ContentView-DemoCodableImage20230211.swift in Sources */,
 				25D1898929B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift in Sources */,
 				25C192D729E3BA5F009283AC /* ContentView-DemoAttributedString20230409.swift in Sources */,
