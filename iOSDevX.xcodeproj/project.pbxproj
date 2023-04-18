@@ -63,6 +63,7 @@
 		25E35FF629C0053200B88CE9 /* ContentView-DemoPicker20230313.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E35FF529C0053200B88CE9 /* ContentView-DemoPicker20230313.swift */; };
 		25F052FC29DE771500EA06EC /* ContentView-Demo3DButton20230405.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F052FB29DE771500EA06EC /* ContentView-Demo3DButton20230405.swift */; };
 		25FFBDC229D6782100EF4F73 /* ContentView-DemoGaugeView20230331.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FFBDC129D6782100EF4F73 /* ContentView-DemoGaugeView20230331.swift */; };
+		A73F0F8629EE4A79001CEBAC /* ContentView-DemoWithAnimation20230418.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73F0F8529EE4A79001CEBAC /* ContentView-DemoWithAnimation20230418.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +124,7 @@
 		25E35FF529C0053200B88CE9 /* ContentView-DemoPicker20230313.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoPicker20230313.swift"; sourceTree = "<group>"; };
 		25F052FB29DE771500EA06EC /* ContentView-Demo3DButton20230405.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-Demo3DButton20230405.swift"; sourceTree = "<group>"; };
 		25FFBDC129D6782100EF4F73 /* ContentView-DemoGaugeView20230331.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGaugeView20230331.swift"; sourceTree = "<group>"; };
+		A73F0F8529EE4A79001CEBAC /* ContentView-DemoWithAnimation20230418.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoWithAnimation20230418.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +256,7 @@
 		255D67BA29DBA8FA00CCD2CB /* 202304-Apr 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				A73F0F8729EE5B5A001CEBAC /* withAnimation */,
 				256CFEA929EB07C50035A343 /* CryptoKit */,
 				257CD33C29E7A5D000122669 /* Coding Keys */,
 				25C192D829E3C35F009283AC /* AttributedString */,
@@ -599,6 +602,14 @@
 			path = "Gauge View";
 			sourceTree = "<group>";
 		};
+		A73F0F8729EE5B5A001CEBAC /* withAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A73F0F8529EE4A79001CEBAC /* ContentView-DemoWithAnimation20230418.swift */,
+			);
+			path = withAnimation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -708,6 +719,7 @@
 				256D118D29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift in Sources */,
 				25CD9DAE29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift in Sources */,
 				25AA147229AC4E1000970AF1 /* iOSDevXApp.swift in Sources */,
+				A73F0F8629EE4A79001CEBAC /* ContentView-DemoWithAnimation20230418.swift in Sources */,
 				2514688329B2D830003FEDB8 /* ContentView-DemoLinks20230303.swift in Sources */,
 				25726C1F29D523EE005B664A /* ContentView-DemoProgressView20230329.swift in Sources */,
 				2519FBA829E0FEE0007AF71B /* ContentView-DemoRedaction20230407.swift in Sources */,
