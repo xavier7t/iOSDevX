@@ -15,7 +15,7 @@ struct Demo_ContentViewCryptoKit20230414: View {
         }
     }
 }
-struct TestView_Previews: PreviewProvider {
+struct Demo_ContentViewCryptoKit20230414_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             Demo_ContentViewCryptoKit20230414()
