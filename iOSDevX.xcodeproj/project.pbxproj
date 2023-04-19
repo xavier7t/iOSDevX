@@ -64,6 +64,7 @@
 		25F052FC29DE771500EA06EC /* ContentView-Demo3DButton20230405.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F052FB29DE771500EA06EC /* ContentView-Demo3DButton20230405.swift */; };
 		25FFBDC229D6782100EF4F73 /* ContentView-DemoGaugeView20230331.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FFBDC129D6782100EF4F73 /* ContentView-DemoGaugeView20230331.swift */; };
 		A73F0F8629EE4A79001CEBAC /* ContentView-DemoWithAnimation20230418.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73F0F8529EE4A79001CEBAC /* ContentView-DemoWithAnimation20230418.swift */; };
+		A766CA4529EF7D6800C31BFE /* ContentView-DemoImageCaching20230418.swift in Sources */ = {isa = PBXBuildFile; fileRef = A766CA4429EF7D6800C31BFE /* ContentView-DemoImageCaching20230418.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,6 +126,7 @@
 		25F052FB29DE771500EA06EC /* ContentView-Demo3DButton20230405.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-Demo3DButton20230405.swift"; sourceTree = "<group>"; };
 		25FFBDC129D6782100EF4F73 /* ContentView-DemoGaugeView20230331.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoGaugeView20230331.swift"; sourceTree = "<group>"; };
 		A73F0F8529EE4A79001CEBAC /* ContentView-DemoWithAnimation20230418.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoWithAnimation20230418.swift"; sourceTree = "<group>"; };
+		A766CA4429EF7D6800C31BFE /* ContentView-DemoImageCaching20230418.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoImageCaching20230418.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 		255D67BA29DBA8FA00CCD2CB /* 202304-Apr 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				A766CA4629EFA21F00C31BFE /* Image Caching */,
 				A73F0F8729EE5B5A001CEBAC /* withAnimation */,
 				256CFEA929EB07C50035A343 /* CryptoKit */,
 				257CD33C29E7A5D000122669 /* Coding Keys */,
@@ -610,6 +613,14 @@
 			path = withAnimation;
 			sourceTree = "<group>";
 		};
+		A766CA4629EFA21F00C31BFE /* Image Caching */ = {
+			isa = PBXGroup;
+			children = (
+				A766CA4429EF7D6800C31BFE /* ContentView-DemoImageCaching20230418.swift */,
+			);
+			path = "Image Caching";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -706,6 +717,7 @@
 				25D76B2F29AD95A400226176 /* Model20230210.xcdatamodeld in Sources */,
 				2597082B29B427AC008D2BF7 /* ContentView-DemoState20230304.swift in Sources */,
 				25D1898729B0545D00C9DC95 /* ContentView-DemoColorPicker20230213.swift in Sources */,
+				A766CA4529EF7D6800C31BFE /* ContentView-DemoImageCaching20230418.swift in Sources */,
 				256B0A0D29E97741008B1203 /* Demo-ContentViewCryptoKit20230414.swift in Sources */,
 				25D3439929AEE179009E736D /* ContentView-DemoCodableImage20230211.swift in Sources */,
 				25D1898929B055BA00C9DC95 /* CustomColorPickerView-DemoColorPicker20230213.swift in Sources */,
