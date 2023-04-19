@@ -6,23 +6,16 @@
 //
 
 import SwiftUI
-//
-struct ContentView_DemoWithAnimation20230418_Previews: PreviewProvider {
-    static var previews: some View {
-        VStack {
-            ContentView_DemoWithAnimation20230418()
-        }
-    }
-}
+
 struct ContentView_DemoWithAnimation20230418: View {
     var body: some View {
         NavigationView {
             TabView {
-                TestView()
+                ContentView()
                     .tabItem {
                         Label("Basic", systemImage: "1.circle")
                     }
-                TestView2()
+                ContentView2()
                     .tabItem {
                         Label("Transition", systemImage: "2.circle")
                     }
@@ -30,34 +23,42 @@ struct ContentView_DemoWithAnimation20230418: View {
             .navigationTitle("withAnimation")
         }
     }
-}
-struct TestView: View {
-    @State private var scale: CGFloat = 1.0
-    
-    var body: some View {
-        Button("Tap me to enlarge!") {
-            withAnimation {
-                self.scale *= 1.5
+    struct ContentView: View {
+        @State private var scale: CGFloat = 1.0
+        
+        var body: some View {
+            Button("Tap me to enlarge!") {
+                withAnimation {
+                    self.scale *= 1.5
+                }
+            }
+            .scaleEffect(scale)
+        }
+    }
+
+    struct ContentView2: View {
+        @State private var showDetails = false
+        
+        var body: some View {
+            VStack {
+                Button((showDetails ? "Hide" : "Show") + " details") {
+                    withAnimation {
+                        self.showDetails.toggle()
+                    }
+                }
+                if showDetails {
+                    Text("Here are some details")
+                        .transition(.opacity)
+                }
             }
         }
-        .scaleEffect(scale)
     }
 }
 
-struct TestView2: View {
-    @State private var showDetails = false
-    
-    var body: some View {
+struct ContentView_DemoWithAnimation20230418_Previews: PreviewProvider {
+    static var previews: some View {
         VStack {
-            Button((showDetails ? "Hide" : "Show") + " details") {
-                withAnimation {
-                    self.showDetails.toggle()
-                }
-            }
-            if showDetails {
-                Text("Here are some details")
-                    .transition(.opacity)
-            }
+            ContentView_DemoWithAnimation20230418()
         }
     }
 }
