@@ -1,5 +1,5 @@
 //
-//  ContentView-DemoUIKitIntegration.swift
+//  ContentView-DemoUIKitIntegration20230419.swift
 //  iOSDevX
 //
 //  Created by Xavier on 4/19/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView_DemoUIKitIntegration: View {
+struct ContentView_DemoUIKitIntegration20230419: View {
     var body: some View {
         NavigationView {
             VStack {
@@ -30,15 +30,7 @@ struct ContentView_DemoUIKitIntegration: View {
     }
 }
 
-
-struct ContentView_DemoUIKitIntegration_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView_DemoUIKitIntegration()
-    }
-}
-
-
-extension ContentView_DemoUIKitIntegration {
+extension ContentView_DemoUIKitIntegration20230419 {
     
     struct ActivityIndicator: UIViewRepresentable {
         func makeUIView(context: Context) -> UIActivityIndicatorView {
@@ -73,4 +65,10 @@ extension ContentView_DemoUIKitIntegration {
         }
     }
 
+}
+
+struct ContentView_DemoUIKitIntegration20230419_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView_DemoUIKitIntegration20230419()
+    }
 }
