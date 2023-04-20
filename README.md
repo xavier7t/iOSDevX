@@ -32,6 +32,8 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Apr 2023
+[Integrating UIKit into SwiftUI](https://xavier7t.com/integrating-uikit-into-swiftui)
+
 [Image Caching in SwiftUI](https://xavier7t.com/image-caching-in-swiftui)
 
 [withAnimation in SwiftUI](https://xavier7t.com/withanimation-in-swiftui)
