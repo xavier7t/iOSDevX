@@ -32,6 +32,8 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Apr 2023
+[onMove in SwiftUI List](https://xavier7t.com/onmove-in-swiftui-list)
+
 [Integrating UIKit into SwiftUI](https://xavier7t.com/integrating-uikit-into-swiftui)
 
 [Image Caching in SwiftUI](https://xavier7t.com/image-caching-in-swiftui)
