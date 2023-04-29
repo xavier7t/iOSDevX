@@ -32,6 +32,8 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Apr 2023
+[EnvironmentObject in SwiftUI](https://xavier7t.com/environmentobject-in-swiftui)
+
 [Day of the Week Picker in SwiftUI](https://xavier7t.com/day-of-the-week-picker-in-swiftui)
 
 [Regex in SwiftUI](https://xavier7t.com/regex-in-swiftui)
