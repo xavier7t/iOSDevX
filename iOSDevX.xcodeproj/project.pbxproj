@@ -70,6 +70,7 @@
 		A766CA4529EF7D6800C31BFE /* ContentView-DemoImageCaching20230418.swift in Sources */ = {isa = PBXBuildFile; fileRef = A766CA4429EF7D6800C31BFE /* ContentView-DemoImageCaching20230418.swift */; };
 		A7B3872129F8C839006078D1 /* ContentView-DemoDayOfWeekPicker20230425.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B3872029F8C839006078D1 /* ContentView-DemoDayOfWeekPicker20230425.swift */; };
 		A7DB965E29F0E2BB00B68F8F /* ContentView-DemoUIKitIntegration20230419.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB965D29F0E2BB00B68F8F /* ContentView-DemoUIKitIntegration20230419.swift */; };
+		A7F049962A00BAEF00BC6DEC /* DemoDecimalFormatter20230501.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F049952A00BAEF00BC6DEC /* DemoDecimalFormatter20230501.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -137,6 +138,7 @@
 		A766CA4429EF7D6800C31BFE /* ContentView-DemoImageCaching20230418.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoImageCaching20230418.swift"; sourceTree = "<group>"; };
 		A7B3872029F8C839006078D1 /* ContentView-DemoDayOfWeekPicker20230425.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoDayOfWeekPicker20230425.swift"; sourceTree = "<group>"; };
 		A7DB965D29F0E2BB00B68F8F /* ContentView-DemoUIKitIntegration20230419.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoUIKitIntegration20230419.swift"; sourceTree = "<group>"; };
+		A7F049952A00BAEF00BC6DEC /* DemoDecimalFormatter20230501.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDecimalFormatter20230501.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -436,6 +438,7 @@
 		25AA147029AC4E1000970AF1 /* iOSDevX */ = {
 			isa = PBXGroup;
 			children = (
+				A7F049942A00BAD600BC6DEC /* 202305-May 2023 */,
 				255D67BA29DBA8FA00CCD2CB /* 202304-Apr 2023 */,
 				25D1898429B043D200C9DC95 /* 202303-Mar 2023 */,
 				2542683029AC4FA90039ECF6 /* 202302-Feb 2023 */,
@@ -668,6 +671,14 @@
 			path = "UIKit Integration";
 			sourceTree = "<group>";
 		};
+		A7F049942A00BAD600BC6DEC /* 202305-May 2023 */ = {
+			isa = PBXGroup;
+			children = (
+				A7F049952A00BAEF00BC6DEC /* DemoDecimalFormatter20230501.swift */,
+			);
+			path = "202305-May 2023";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -742,6 +753,7 @@
 			files = (
 				2590E03829D3D36F005011DA /* ContentView-DemoAlert20230328.swift in Sources */,
 				2542683729AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift in Sources */,
+				A7F049962A00BAEF00BC6DEC /* DemoDecimalFormatter20230501.swift in Sources */,
 				25B4B57529CA6200000494E4 /* ContentView-DemoPageView20230321.swift in Sources */,
 				2524754429CBE9D500532385 /* ContentView-DemoToolbarItem20230322.swift in Sources */,
 				255D776229B807CB000A901B /* ContentView-DemoCustomShape20230307.swift in Sources */,
