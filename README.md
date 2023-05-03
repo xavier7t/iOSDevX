@@ -6,13 +6,13 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 ## 🔥Top 5 Hits🔥
 [Progress View in SwiftUI](https://xavier7t.com/progress-view-in-swiftui)
 
+[Work with JSON files in the iOS document directory](https://xavier7t.com/work-with-json-files-in-the-ios-document-directory)
+
+[REST API Call in SwiftUI](https://xavier7t.com/rest-api-call-in-swiftui)
+
 [Ternary Operator in SwiftUI](https://xavier7t.com/ternary-operator-in-swiftui)
 
 [Grid View in SwiftUI](https://xavier7t.com/grid-view-in-swiftui)
-
-[Work with JSON files in the iOS document directory](https://xavier7t.com/work-with-json-files-in-the-ios-document-directory)
-
-[Geometry Reader in SwiftUI](https://xavier7t.com/geometry-reader-in-swiftui)
 
 ## 👨‍🍳Chef’s recommendation👨‍🍳
 [CRUD with Core Data in SwiftUI](https://xavier7t.com/crud-with-core-data-in-swiftui)
