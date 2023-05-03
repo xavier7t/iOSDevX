@@ -71,6 +71,7 @@
 		A7B3872129F8C839006078D1 /* ContentView-DemoDayOfWeekPicker20230425.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B3872029F8C839006078D1 /* ContentView-DemoDayOfWeekPicker20230425.swift */; };
 		A7DB965E29F0E2BB00B68F8F /* ContentView-DemoUIKitIntegration20230419.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB965D29F0E2BB00B68F8F /* ContentView-DemoUIKitIntegration20230419.swift */; };
 		A7F049962A00BAEF00BC6DEC /* DemoDecimalFormatter20230501.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F049952A00BAEF00BC6DEC /* DemoDecimalFormatter20230501.swift */; };
+		A7F8F9A22A020C7F00DD1843 /* DemoMVVM20230502.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F8F9A12A020C7F00DD1843 /* DemoMVVM20230502.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +140,7 @@
 		A7B3872029F8C839006078D1 /* ContentView-DemoDayOfWeekPicker20230425.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoDayOfWeekPicker20230425.swift"; sourceTree = "<group>"; };
 		A7DB965D29F0E2BB00B68F8F /* ContentView-DemoUIKitIntegration20230419.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoUIKitIntegration20230419.swift"; sourceTree = "<group>"; };
 		A7F049952A00BAEF00BC6DEC /* DemoDecimalFormatter20230501.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDecimalFormatter20230501.swift; sourceTree = "<group>"; };
+		A7F8F9A12A020C7F00DD1843 /* DemoMVVM20230502.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMVVM20230502.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -675,6 +677,7 @@
 			isa = PBXGroup;
 			children = (
 				A7F049952A00BAEF00BC6DEC /* DemoDecimalFormatter20230501.swift */,
+				A7F8F9A12A020C7F00DD1843 /* DemoMVVM20230502.swift */,
 			);
 			path = "202305-May 2023";
 			sourceTree = "<group>";
@@ -758,6 +761,7 @@
 				2524754429CBE9D500532385 /* ContentView-DemoToolbarItem20230322.swift in Sources */,
 				255D776229B807CB000A901B /* ContentView-DemoCustomShape20230307.swift in Sources */,
 				25D3439C29AEE41A009E736D /* ContentView-DemoCharts20230209.swift in Sources */,
+				A7F8F9A22A020C7F00DD1843 /* DemoMVVM20230502.swift in Sources */,
 				255D67BC29DBA92B00CCD2CB /* ContentView-DemoDragGesture20230403.swift in Sources */,
 				258DFC7029BD79AA0097CCC6 /* ContentView-DemoLinearGradient20230311.swift in Sources */,
 				25D3439F29AEE63A009E736D /* DemoInitializers20230228.swift in Sources */,
