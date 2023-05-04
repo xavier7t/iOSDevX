@@ -32,6 +32,8 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
 ### Apr 2023
+[Rotation Effect and Animation in SwiftUI](https://xavier7t.com/rotation-effect-and-animation-in-swiftui)
+
 [MVVM in SwiftUI](https://xavier7t.com/mvvm-in-swiftui)
 
 [EnvironmentObject in SwiftUI](https://xavier7t.com/environmentobject-in-swiftui)
