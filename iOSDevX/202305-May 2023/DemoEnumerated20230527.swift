@@ -23,15 +23,15 @@ struct DemoEnumerated20230527 {
                         .padding(.vertical, 11)
                         .background(offset % 2 == 0 ? Color.secondary.opacity(0.5) : Color.clear)
                     }
-    //                ForEach(transactions) { transaction in
-    //                    HStack {
-    //                        Text(transaction.date.formatted(date: .abbreviated, time: .omitted))
-    //                        Spacer()
-    //                        Text("$" + transaction.amount.toString1(2))
-    //                    }
-    //                    .padding(.horizontal, 20)
-    //                    .padding(.vertical, 5)
-    //                }
+//                    ForEach(transactions) { transaction in
+//                        HStack {
+//                            Text(transaction.date.formatted(date: .abbreviated, time: .omitted))
+//                            Spacer()
+//                            Text("$" + String(format: "%.2f", transaction.amount))
+//                        }
+//                        .padding(.horizontal, 20)
+//                        .padding(.vertical, 5)
+//                    }
                 }
                 .navigationTitle("Transaction Records")
             }
@@ -45,11 +45,11 @@ struct DemoEnumerated20230527 {
                 transactions.sort { $0.date > $1.date }
             }
         }
-        struct Transaction: Identifiable {
-            let id = UUID()
-            let date: Date
-            let amount: Double
-        }
+    }
+    struct Transaction: Identifiable {
+        let id = UUID()
+        let date: Date
+        let amount: Double
     }
 }
 
