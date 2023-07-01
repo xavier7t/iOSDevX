@@ -16,7 +16,6 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor systemBackgroundColor];
     _label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 300, 50)];
-    _label.text = @"Hello, Objective-C ViewController!";
     _label.adjustsFontSizeToFitWidth = YES;
     _label.textColor = [UIColor systemCyanColor];
     _label.textAlignment = NSTextAlignmentCenter;

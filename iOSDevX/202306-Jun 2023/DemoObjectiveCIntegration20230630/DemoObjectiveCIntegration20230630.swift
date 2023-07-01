@@ -37,16 +37,5 @@ struct DemoObjectiveCIntegration20230630 {
         func updateUIViewController(_ uiViewController: DemoObjectiveCIntegration20230630_OCViewController, context: Context) {
             uiViewController.label.text = showOC ? "Hello, Objective-C ViewController!" : "Hello, SwiftUI View!"
         }
-        func makeCoordinator() -> Coordinator {
-            Coordinator(parent: self, labelText: "")
-        }
-        class Coordinator {
-            let parent: OCView
-            var labelText: String = ""
-            init(parent: OCView, labelText: String) {
-                self.parent = parent
-                self.labelText = labelText
-            }
-        }
     }
 }
