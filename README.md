@@ -31,10 +31,21 @@ This repo hosts the source code and resources for the Swift tech blog: [iOSDevX]
 
 ## 📖All posts📖
 Below is a list of all posts, ordered by post date, descendingly.
-### Apr 2023
+### Jun 2023
+[Lazy Grid in SwiftUI](https://xavier7t.com/lazy-grid-in-swiftui)
+
+[Enumerated Array in SwiftUI](https://xavier7t.com/enumerated-array-in-swiftui)
+
+### May 2023
+[2 Ways to format decimal numbers in Swift](https://xavier7t.com/2-ways-to-format-decimal-numbers-in-swift)
+
 [Rotation Effect and Animation in SwiftUI](https://xavier7t.com/rotation-effect-and-animation-in-swiftui)
 
 [MVVM in SwiftUI](https://xavier7t.com/mvvm-in-swiftui)
+
+[Section and Navigation Link in SwiftUI](https://xavier7t.com/section-and-navigation-link-in-swiftui)
+### Apr 2023
+[Data Encryption with CryptoKit in SwiftUI](https://xavier7t.com/cryptokit-in-swiftui)
 
 [EnvironmentObject in SwiftUI](https://xavier7t.com/environmentobject-in-swiftui)
 
