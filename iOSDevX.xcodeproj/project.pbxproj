@@ -23,6 +23,7 @@
 		2542683629AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683329AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift */; };
 		2542683729AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683429AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift */; };
 		2542683C29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542683B29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift */; };
+		2558DAFB2B3F137F006CEC33 /* DemoCustomToggle20231229.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2558DAFA2B3F137F006CEC33 /* DemoCustomToggle20231229.swift */; };
 		255D67BC29DBA92B00CCD2CB /* ContentView-DemoDragGesture20230403.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255D67BB29DBA92B00CCD2CB /* ContentView-DemoDragGesture20230403.swift */; };
 		255D776229B807CB000A901B /* ContentView-DemoCustomShape20230307.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255D776129B807CB000A901B /* ContentView-DemoCustomShape20230307.swift */; };
 		2560B9D42A2D7E0200A1A360 /* DemoCustomCalendarView20230604.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2560B9D32A2D7E0200A1A360 /* DemoCustomCalendarView20230604.swift */; };
@@ -97,6 +98,7 @@
 		2542683329AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoSearchable20230207.swift"; sourceTree = "<group>"; };
 		2542683429AC4FF40039ECF6 /* Model-DemoSearchable20230207.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Model-DemoSearchable20230207.swift"; sourceTree = "<group>"; };
 		2542683B29AC5B430039ECF6 /* ContentView-DemoDynamicIslandNotification20230226.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoDynamicIslandNotification20230226.swift"; sourceTree = "<group>"; };
+		2558DAFA2B3F137F006CEC33 /* DemoCustomToggle20231229.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCustomToggle20231229.swift; sourceTree = "<group>"; };
 		255D67BB29DBA92B00CCD2CB /* ContentView-DemoDragGesture20230403.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoDragGesture20230403.swift"; sourceTree = "<group>"; };
 		255D776129B807CB000A901B /* ContentView-DemoCustomShape20230307.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoCustomShape20230307.swift"; sourceTree = "<group>"; };
 		2560B9D32A2D7E0200A1A360 /* DemoCustomCalendarView20230604.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCustomCalendarView20230604.swift; sourceTree = "<group>"; };
@@ -283,6 +285,14 @@
 			path = "Toolbar Item in SwiftUI";
 			sourceTree = "<group>";
 		};
+		2558DAF92B3F1356006CEC33 /* 202312-Dec 2023 */ = {
+			isa = PBXGroup;
+			children = (
+				2558DAFA2B3F137F006CEC33 /* DemoCustomToggle20231229.swift */,
+			);
+			path = "202312-Dec 2023";
+			sourceTree = "<group>";
+		};
 		255D67BA29DBA8FA00CCD2CB /* 202304-Apr 2023 */ = {
 			isa = PBXGroup;
 			children = (
@@ -463,6 +473,7 @@
 		25AA147029AC4E1000970AF1 /* iOSDevX */ = {
 			isa = PBXGroup;
 			children = (
+				2558DAF92B3F1356006CEC33 /* 202312-Dec 2023 */,
 				2560B9D22A2D7DEF00A1A360 /* 202306-Jun 2023 */,
 				A7F049942A00BAD600BC6DEC /* 202305-May 2023 */,
 				255D67BA29DBA8FA00CCD2CB /* 202304-Apr 2023 */,
@@ -833,6 +844,7 @@
 				25FFBDC229D6782100EF4F73 /* ContentView-DemoGaugeView20230331.swift in Sources */,
 				A7B3872129F8C839006078D1 /* ContentView-DemoDayOfWeekPicker20230425.swift in Sources */,
 				A705B75C29FCA31D002CD11D /* DemoEnvironmentObject20230428.swift in Sources */,
+				2558DAFB2B3F137F006CEC33 /* DemoCustomToggle20231229.swift in Sources */,
 				2542683629AC4FF40039ECF6 /* ContentView-DemoSearchable20230207.swift in Sources */,
 				25997C3D29E25CFE006FE636 /* ContentView-DemoCombine20230408.swift in Sources */,
 				251A63D729CD3B1200843F54 /* ContentView-DemoStepper20230323.swift in Sources */,
