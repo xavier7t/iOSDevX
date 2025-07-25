@@ -14,7 +14,6 @@ struct DemoTabView20250735 {
         var body: some View {
             if #available(iOS 26, *) {
                 mainView
-                .tint(.teal)
             }
         }
         
@@ -53,6 +52,7 @@ struct DemoTabView20250735 {
                     }
                 }
             }
+            .tint(.teal)
         }
         
         @ViewBuilder
