@@ -79,6 +79,7 @@
 		A7DB965E29F0E2BB00B68F8F /* ContentView-DemoUIKitIntegration20230419.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB965D29F0E2BB00B68F8F /* ContentView-DemoUIKitIntegration20230419.swift */; };
 		A7F049962A00BAEF00BC6DEC /* DemoDecimalFormatter20230501.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F049952A00BAEF00BC6DEC /* DemoDecimalFormatter20230501.swift */; };
 		A7F8F9A22A020C7F00DD1843 /* DemoMVVM20230502.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F8F9A12A020C7F00DD1843 /* DemoMVVM20230502.swift */; };
+		C397168B2E342A3D005A85C1 /* DemoTabView20250735.swift in Sources */ = {isa = PBXBuildFile; fileRef = C397168A2E342A2C005A85C1 /* DemoTabView20250735.swift */; };
 		EFBFEE282C96893100053B70 /* DemoRadialPattern20240914.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBFEE272C96893100053B70 /* DemoRadialPattern20240914.swift */; };
 /* End PBXBuildFile section */
 
@@ -158,6 +159,7 @@
 		A7DB965D29F0E2BB00B68F8F /* ContentView-DemoUIKitIntegration20230419.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-DemoUIKitIntegration20230419.swift"; sourceTree = "<group>"; };
 		A7F049952A00BAEF00BC6DEC /* DemoDecimalFormatter20230501.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDecimalFormatter20230501.swift; sourceTree = "<group>"; };
 		A7F8F9A12A020C7F00DD1843 /* DemoMVVM20230502.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMVVM20230502.swift; sourceTree = "<group>"; };
+		C397168A2E342A2C005A85C1 /* DemoTabView20250735.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTabView20250735.swift; sourceTree = "<group>"; };
 		EFBFEE272C96893100053B70 /* DemoRadialPattern20240914.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoRadialPattern20240914.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -475,6 +477,7 @@
 		25AA147029AC4E1000970AF1 /* iOSDevX */ = {
 			isa = PBXGroup;
 			children = (
+				C39716892E342A1C005A85C1 /* 202507-Jul 2025 */,
 				EFBFEE262C96890B00053B70 /* 202409-Sep 2024 */,
 				2558DAF92B3F1356006CEC33 /* 202312-Dec 2023 */,
 				2560B9D22A2D7DEF00A1A360 /* 202306-Jun 2023 */,
@@ -734,6 +737,14 @@
 			path = "202305-May 2023";
 			sourceTree = "<group>";
 		};
+		C39716892E342A1C005A85C1 /* 202507-Jul 2025 */ = {
+			isa = PBXGroup;
+			children = (
+				C397168A2E342A2C005A85C1 /* DemoTabView20250735.swift */,
+			);
+			path = "202507-Jul 2025";
+			sourceTree = "<group>";
+		};
 		EFBFEE262C96890B00053B70 /* 202409-Sep 2024 */ = {
 			isa = PBXGroup;
 			children = (
@@ -864,6 +875,7 @@
 				2569394D29B9326D00BC9AD5 /* ContentView-DemoGridView20230308.swift in Sources */,
 				A7C7F7D02A04BF5C005916F1 /* DemoSettingsView20230505.swift in Sources */,
 				256D118D29C2AEEA009596EA /* ContentView-DemoUserInputs20230315.swift in Sources */,
+				C397168B2E342A3D005A85C1 /* DemoTabView20250735.swift in Sources */,
 				EFBFEE282C96893100053B70 /* DemoRadialPattern20240914.swift in Sources */,
 				25CD9DAE29C3FF49000C6785 /* ContentView-DemoMapWithPin2023.swift in Sources */,
 				25AA147229AC4E1000970AF1 /* iOSDevXApp.swift in Sources */,
